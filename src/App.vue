@@ -6,6 +6,6 @@ useHead({ title: 'Teacher Resources | Spectrum Lab' });
 
 <template>
   <header>
-    <DataLabsNavBar />
+    <TeacherResourcesNavBar />
   </header>
 </template>
