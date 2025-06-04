@@ -1,16 +1,24 @@
 <template>
-  <BNavbar v-b-color-mode="'dark'" variant="dark">
-    <BNavbarBrand href="#">
-      <img src="" height="90" width="343" />
+  <BNavbar v-b-color-mode="'dark'" variant="dark" container="xl">
+    <BNavbarBrand href="https://smithsonian.github.io/si_website_datalabs/">
+      <img src="/src/assets/DataLabsLogo@2x-89.png" height="44" width="196" />
     </BNavbarBrand>
-    <BNavbarToggle target="nav-collapse" />
-    <BCollapse id="nav-collapse" is-nav>
-      <BNavbarNav class="ms-auto">
-        <BNavItem :href="DIY_URL" variant="light" opacity-hover="75">DIY Planet Search</BNavItem>
-        <BNavText class="text-gen-grey">|</BNavText>
-        <BNavItem :href="SPECLAB_URL" variant="light" opacity-hover="75">Spectrum Lab</BNavItem>
-      </BNavbarNav>
-    </BCollapse>
+    <BNavbarNav>
+      <BNavText>
+        <span class="vr bg-light text-light ms-5 me-3 h-100 align-top"></span>
+        <img
+          class="d-inline-block align-top"
+          src="/src/assets/SVG/resources_logo.svg"
+          height="36"
+          width="415"
+        />
+      </BNavText>
+    </BNavbarNav>
+    <BNavbarNav class="ms-auto">
+      <BNavItem :href="SPECLAB_URL" variant="light" opacity-hover="75" class="text-uppercase">
+        Spectrum Lab
+      </BNavItem>
+    </BNavbarNav>
   </BNavbar>
 </template>
 
