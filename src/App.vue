@@ -8,4 +8,8 @@ useHead({ title: 'Teacher Resources | Spectrum Lab' });
   <header>
     <TeacherResourcesNavBar />
   </header>
+
+  <main>
+    <TeacherResourcesIntro />
+  </main>
 </template>
