@@ -23,5 +23,5 @@
 </template>
 
 <script setup lang="ts">
-import { DIY_URL, SPECLAB_URL } from '@/constants';
+import { SPECLAB_URL } from '@/constants';
 </script>
