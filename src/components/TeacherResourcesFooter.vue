@@ -11,7 +11,9 @@
             </small>
           </p>
           <p>
-            <BLink href="https://www.si.edu/termsofuse"> Smithsonian Terms of Use </BLink>
+            <BLink variant="light" href="https://www.si.edu/termsofuse">
+              Smithsonian Terms of Use
+            </BLink>
           </p>
         </BCol>
         <BCol>
