@@ -8,7 +8,7 @@
         <span class="vr bg-light text-light ms-5 me-3 h-100 align-top"></span>
         <img
           class="d-inline-block align-top"
-          src="/src/assets/SVG/resources_logo.svg"
+          src="/src/assets/SVG/resources_logo.svg?url"
           height="36"
           width="415"
         />

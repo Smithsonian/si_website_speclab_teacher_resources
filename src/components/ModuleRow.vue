@@ -1,6 +1,8 @@
 <template>
   <div class="module-row" :class="{ 'module-row-indented': indent }">
-    <img class="module-row-icon" :src="iconSource" :alt="iconAlt" />
+    <div class="module-row-icon-container">
+      <SvgImage :src="iconSource" class="module-row-icon" />
+    </div>
     <h2 class="h5 text-uppercase text-primary">{{ title }}</h2>
     <p>
       <strong
@@ -15,6 +17,8 @@
 </template>
 
 <script setup lang="ts">
+import { SvgImage } from 'vite-awesome-svg-loader/vue-integration';
+
 defineProps<{
   iconSource: string;
   iconAlt: string;
@@ -40,9 +44,11 @@ defineProps<{
   border-top: 1px solid var(--slr-dark-brown);
 }
 
-.module-row-icon {
-  width: 50px;
+.module-row-icon-container {
+  height: 50px;
+  width: 145px;
   position: absolute;
-  left: 50px;
+  left: 0px;
+  color: var(--slr-dark-grey);
 }
 </style>

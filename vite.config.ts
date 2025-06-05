@@ -5,11 +5,13 @@ import vue from '@vitejs/plugin-vue';
 import vueDevTools from 'vite-plugin-vue-devtools';
 import Components from 'unplugin-vue-components/vite';
 import { BootstrapVueNextResolver } from 'bootstrap-vue-next';
+import { viteAwesomeSvgLoader } from 'vite-awesome-svg-loader';
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
+    viteAwesomeSvgLoader(),
     vueDevTools(),
     Components({
       resolvers: [BootstrapVueNextResolver()],

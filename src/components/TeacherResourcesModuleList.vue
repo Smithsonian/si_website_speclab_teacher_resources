@@ -160,14 +160,14 @@
 </template>
 
 <script setup lang="ts">
-import lightIcon from '@/assets/SVG/lightbulb-regular.svg';
-import spectraIcon from '@/assets/SVG/spectra_icon.svg';
-import colorIcon from '@/assets/SVG/color_icon.svg';
-import temperatureIcon from '@/assets/SVG/temperature_icon.svg';
-import compositionIcon from '@/assets/SVG/composition_icon.svg';
-import finalProjectsIcon from '@/assets/SVG/final_projects_icon.svg';
-import fishtankIcon from '@/assets/SVG/fish_tank_icon.svg';
-import exoplanetsIcon from '@/assets/SVG/exoplanets_icon.svg';
-import museumIcon from '@/assets/SVG/museum_conservation_icon.svg';
-import playgroundIcon from '@/assets/SVG/playground_icon.svg';
+import lightIcon from '@/assets/SVG/lightbulb-regular.svg?set-current-color';
+import spectraIcon from '@/assets/SVG/spectra_icon.svg?set-current-color';
+import colorIcon from '@/assets/SVG/color_icon.svg?set-current-color';
+import temperatureIcon from '@/assets/SVG/temperature_icon.svg?set-current-color';
+import compositionIcon from '@/assets/SVG/composition_icon.svg?set-current-color';
+import finalProjectsIcon from '@/assets/SVG/final_projects_icon.svg?set-current-color';
+import fishtankIcon from '@/assets/SVG/fish_tank_icon.svg?set-current-color';
+import exoplanetsIcon from '@/assets/SVG/exoplanets_icon.svg?set-current-color';
+import museumIcon from '@/assets/SVG/museum_conservation_icon.svg?set-current-color';
+import playgroundIcon from '@/assets/SVG/playground_icon.svg?set-current-color';
 </script>
