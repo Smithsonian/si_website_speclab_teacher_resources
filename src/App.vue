@@ -11,5 +11,6 @@ useHead({ title: 'Teacher Resources | Spectrum Lab' });
 
   <main>
     <TeacherResourcesIntro />
+    <TeacherResourcesModuleList />
   </main>
 </template>
