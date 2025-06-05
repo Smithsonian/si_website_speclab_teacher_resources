@@ -4,7 +4,7 @@
   >
     <BContainer>
       <BRow>
-        <BCol cols="6">
+        <BCol cols="12" xl="10" xxl="8">
           <p class="mb-5">
             Spectrum Lab is a modular technology-enabled curriculum that, over 3-8 class periods,
             engages high school students in authentic investigations about light, color, and spectra
