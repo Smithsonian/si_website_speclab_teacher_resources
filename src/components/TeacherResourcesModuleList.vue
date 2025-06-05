@@ -1,5 +1,5 @@
 <template>
-  <BContainer class="mt-5">
+  <BContainer class="my-5">
     <BRow>
       <BCol cols="12" xl="10" xxl="8">
         <ModuleRow
