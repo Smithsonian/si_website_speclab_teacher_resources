@@ -30,6 +30,10 @@ defineProps<{
   padding-left: 145px;
 }
 
+.module-row:not(:last-child) {
+  border-bottom: 1px solid var(--slr-dark-brown);
+}
+
 .module-row-icon {
   width: 50px;
   position: absolute;
