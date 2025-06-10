@@ -6,6 +6,7 @@
           title="1. Light"
           :icon-source="lightIcon"
           icon-alt="Light module icon"
+          href="https://smithsonian.github.io/si_website_spectrum_lab/light"
           tagline="How does the interaction of light and matter affect the colors we see?"
         >
           Students make predictions as they explore light and color with hands-on materials
@@ -23,6 +24,7 @@
           title="2. Spectra"
           :icon-source="spectraIcon"
           icon-alt="Spectra module icon"
+          href="https://smithsonian.github.io/si_website_spectrum_lab/spectra"
           tagline="How can a spectrum tell us more than our eyes can perceive?"
         >
           Students make their own spectroscopes using diffraction gratings and paper towel tubes,
@@ -42,6 +44,7 @@
           title="3. Color"
           :icon-source="colorIcon"
           icon-alt="Color module icon"
+          href="https://smithsonian.github.io/si_website_spectrum_lab/color"
           tagline="How can spectra tell us what color things are?"
         >
           Human eyes (and brains) perceive an object to be a certain color based on the specific
@@ -59,6 +62,7 @@
           title="4. Temperature"
           :icon-source="temperatureIcon"
           icon-alt="Temperature module icon"
+          href="https://smithsonian.github.io/si_website_spectrum_lab/temperature"
           tagline="What can spectra tell us about an object’s temperature?"
         >
           Students explore the features of thermal emission spectra - both theoretical models
@@ -76,6 +80,7 @@
           title="5. Composition"
           :icon-source="compositionIcon"
           icon-alt="Composition module icon"
+          href="https://smithsonian.github.io/si_website_spectrum_lab/composition"
           tagline="How can spectra tell us what things are made of?"
         >
           Students examine real emission and absorption line spectra of different gases and are
@@ -96,13 +101,19 @@
           title="Final projects"
           :icon-source="finalProjectsIcon"
           icon-alt="Final projects icon"
+          href="https://smithsonian.github.io/si_website_spectrum_lab/final-projects"
         >
           The Spectrum Lab Module includes a choice of 3 Final Projects that serve as authentic
           performance assessments for students to synthesize and apply the concepts and skills
           learned during the unit. Each project can be completed by students using the Claim,
           Evidence, and Reasoning framework.
         </ModuleRow>
-        <ModuleRow title="Fishtank" :icon-source="fishtankIcon" icon-alt="Fishtank project icon">
+        <ModuleRow
+          title="Fishtank"
+          :icon-source="fishtankIcon"
+          icon-alt="Fishtank project icon"
+          href="https://smithsonian.github.io/si_website_spectrum_lab/final-projects/fishtank"
+        >
           Students synthesize information about the reflection spectra of colorful fish; the
           lighting needs of chlorophyll-containing algae and coral; and the emission spectra of fish
           tank LEDs. Their task: Design a healthy and eye-pleasing aquarium, choosing a lighting
@@ -118,6 +129,7 @@
           title="Exoplanets"
           :icon-source="exoplanetsIcon"
           icon-alt="Exoplanets project icon"
+          href="https://smithsonian.github.io/si_website_spectrum_lab/final-projects/exoplanets"
         >
           Students analyze published low-resolution spectra of real exoplanets and compare them to
           hi-res solar system and theoretical model spectra to determine the atmospheric composition
@@ -135,6 +147,7 @@
           title="Museum conservation"
           :icon-source="museumIcon"
           icon-alt="Museum conservation project icon"
+          href="https://smithsonian.github.io/si_website_spectrum_lab/final-projects/museum"
         >
           Students investigate how paint pigments reflect light at different wavelengths and learn
           how museum conservators use spectroscopy to identify materials and make decisions about
@@ -147,7 +160,12 @@
             <ResourceItem>Student Notebook Answer Keys</ResourceItem>
           </template>
         </ModuleRow>
-        <ModuleRow title="Playground" :icon-source="playgroundIcon" icon-alt="Playground icon">
+        <ModuleRow
+          title="Playground"
+          :icon-source="playgroundIcon"
+          icon-alt="Playground icon"
+          href="https://smithsonian.github.io/si_website_spectrum_lab/playground"
+        >
           This feature of the Spectrum Lab allows teachers and students to flexibly access, analyze,
           and compare data from a curated database of over 100 spectra in multiple categories
           (Stars, Planets, Lamps, Nature, Atoms & Molecules, Thermal Emission). It also features the

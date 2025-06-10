@@ -3,7 +3,10 @@
     <div class="module-row-icon-container">
       <SvgImage :src="iconSource" class="module-row-icon" />
     </div>
-    <h2 class="h5 text-uppercase text-primary">{{ title }}</h2>
+    <h2 class="h5 text-uppercase text-primary">
+      <BLink v-if="href" :href="href" class="text-decoration-none">{{ title }}</BLink>
+      <template v-else>{{ title }}</template>
+    </h2>
     <p>
       <strong
         ><em>{{ tagline }}</em></strong
@@ -23,6 +26,7 @@ defineProps<{
   iconSource: string;
   iconAlt: string;
   title: string;
+  href?: string;
   tagline?: string;
   indent?: boolean;
 }>();
