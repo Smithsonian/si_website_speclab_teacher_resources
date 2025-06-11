@@ -29,6 +29,7 @@
           icon-alt="Light module icon"
           href="https://smithsonian.github.io/si_website_spectrum_lab/light"
           tagline="How does the interaction of light and matter affect the colors we see?"
+          default-open
         >
           Students make predictions as they explore light and color with hands-on materials
           including colored filters, and with the PhET color vision simulation. The Photon Model is
