@@ -30,13 +30,9 @@
         </p>
       </div>
     </div>
-    <ul
-      v-if="$slots['resource-list']"
-      v-show="isExpanded"
-      class="module-row-resource-list list-unstyled"
-    >
+    <div v-if="$slots['resource-list']" v-show="isExpanded" class="module-row-resource-list">
       <slot name="resource-list"></slot>
-    </ul>
+    </div>
   </div>
 </template>
 

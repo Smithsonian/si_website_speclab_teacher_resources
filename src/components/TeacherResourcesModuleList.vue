@@ -36,10 +36,7 @@
           introduced to explain emission, reflection, absorption, transmission. Students are asked
           to make sense of phenomena they observe with the colored filters using these concepts.
           <template #resource-list>
-            <ResourceItem>Teacher Guide</ResourceItem>
-            <ResourceItem>Classroom Slides</ResourceItem>
-            <ResourceItem>Student Notebook Worksheets</ResourceItem>
-            <ResourceItem>Student Notebook Answer Keys</ResourceItem>
+            <ResourceList />
           </template>
         </ModuleRow>
         <ModuleRow
@@ -56,10 +53,7 @@
           they relate to measured quantities such as wavelength, energy, and brightness.
 
           <template #resource-list>
-            <ResourceItem>Teacher Guide</ResourceItem>
-            <ResourceItem>Classroom Slides</ResourceItem>
-            <ResourceItem>Student Notebook Worksheets</ResourceItem>
-            <ResourceItem>Student Notebook Answer Keys</ResourceItem>
+            <ResourceList />
           </template>
         </ModuleRow>
         <ModuleRow
@@ -74,10 +68,7 @@
           and transmits. A spectrum can tell you whether that banana is yellow because it only
           reflects yellow light, or because it reflects a combination of green and red light.
           <template #resource-list>
-            <ResourceItem>Teacher Guide</ResourceItem>
-            <ResourceItem>Classroom Slides</ResourceItem>
-            <ResourceItem>Student Notebook Worksheets</ResourceItem>
-            <ResourceItem>Student Notebook Answer Keys</ResourceItem>
+            <ResourceList />
           </template>
         </ModuleRow>
         <ModuleRow
@@ -92,10 +83,7 @@
           temperature, from light bulbs, and the infrared emission spectra of the Earth as acquired
           from a space telescope.
           <template #resource-list>
-            <ResourceItem>Teacher Guide</ResourceItem>
-            <ResourceItem>Classroom Slides</ResourceItem>
-            <ResourceItem>Student Notebook Worksheets</ResourceItem>
-            <ResourceItem>Student Notebook Answer Keys</ResourceItem>
+            <ResourceList />
           </template>
         </ModuleRow>
         <ModuleRow
@@ -113,10 +101,7 @@
           interpreting what these spectra tell them about the color, temperature, and atmospheric
           composition of these planets.
           <template #resource-list>
-            <ResourceItem>Teacher Guide</ResourceItem>
-            <ResourceItem>Classroom Slides</ResourceItem>
-            <ResourceItem>Student Notebook Worksheets</ResourceItem>
-            <ResourceItem>Student Notebook Answer Keys</ResourceItem>
+            <ResourceList />
           </template>
         </ModuleRow>
         <ModuleRow
@@ -141,10 +126,7 @@
           tank LEDs. Their task: Design a healthy and eye-pleasing aquarium, choosing a lighting
           scheme and using spectral data to explain their choices.
           <template #resource-list>
-            <ResourceItem>Teacher Guide</ResourceItem>
-            <ResourceItem>Classroom Slides</ResourceItem>
-            <ResourceItem>Student Notebook Worksheets</ResourceItem>
-            <ResourceItem>Student Notebook Answer Keys</ResourceItem>
+            <ResourceList />
           </template>
         </ModuleRow>
         <ModuleRow
@@ -159,10 +141,7 @@
           IR-observing James Webb Space Telescope to obtain spectra from an exoplanet target of
           their choice.
           <template #resource-list>
-            <ResourceItem>Teacher Guide</ResourceItem>
-            <ResourceItem>Classroom Slides</ResourceItem>
-            <ResourceItem>Student Notebook Worksheets</ResourceItem>
-            <ResourceItem>Student Notebook Answer Keys</ResourceItem>
+            <ResourceList />
           </template>
         </ModuleRow>
         <ModuleRow
@@ -176,10 +155,7 @@
           how to best care for and restore the artwork. Their task: Create a museum display that
           conveys how spectra are used in art conservation.
           <template #resource-list>
-            <ResourceItem>Teacher Guide</ResourceItem>
-            <ResourceItem>Classroom Slides</ResourceItem>
-            <ResourceItem>Student Notebook Worksheets</ResourceItem>
-            <ResourceItem>Student Notebook Answer Keys</ResourceItem>
+            <ResourceList />
           </template>
         </ModuleRow>
         <ModuleRow
