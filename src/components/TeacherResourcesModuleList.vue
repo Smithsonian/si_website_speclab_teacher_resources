@@ -2,6 +2,27 @@
   <BContainer class="my-5">
     <BRow>
       <BCol cols="12" xl="10" xxl="8">
+        <div class="module-list-intro">
+          <p>Dear Educator,</p>
+          <p>
+            Welcome to the Spectrum Lab! Whether you teach Earth Science, Physics, Chemistry,
+            Astronomy, or Biology - you probably spend some of your class time helping students
+            understand light, color, and the electromagnetic spectrum.
+          </p>
+          <p>
+            Spectrum Lab consists of 5 modules and 3 suggested Final Projects where students can
+            apply these concepts to real-world phenomena by immersing them in spectroscopy - the
+            universal analytical tool of science (and art, as students discover in the Museum
+            Conservation final project). Educators can select the Spectrum Lab modules that best
+            suit their classes.
+          </p>
+          <p>
+            <BLink
+              href="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/SpectrumLab%20Curriculum%20Overview.pdf"
+              >Curriculum Overview</BLink
+            >
+          </p>
+        </div>
         <ModuleRow
           title="1. Light"
           :icon-source="lightIcon"
@@ -189,3 +210,9 @@ import exoplanetsIcon from '@/assets/SVG/exoplanets_icon.svg?set-current-color';
 import museumIcon from '@/assets/SVG/museum_conservation_icon.svg?set-current-color';
 import playgroundIcon from '@/assets/SVG/playground_icon.svg?set-current-color';
 </script>
+
+<style>
+.module-list-intro {
+  margin-bottom: 3rem;
+}
+</style>
