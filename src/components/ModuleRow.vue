@@ -12,7 +12,7 @@
         <FontAwesomeIcon
           v-if="$slots['resource-list']"
           class="d-block mx-auto mb-3 module-row-chevron"
-          :icon="['fas', 'chevron-up']"
+          :icon="['fas', 'chevron-down']"
           size="xl"
           :flip="isExpanded ? 'vertical' : undefined"
         />
