@@ -39,6 +39,11 @@
             <ResourceList
               slides="https://docs.google.com/presentation/d/1WF1wQifBMT-UtbQ2gbuPY4hdqiSlhZKXUkfq5d7K6oM/edit?usp=drive_link"
               slides-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Teacher%20Slides.pdf"
+              slides-ppt="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Teacher%20Slides.pptx"
+              notebook="https://docs.google.com/document/d/1Jg84xIRNe0F_LgSvJTM6_38DQcyzHfbl8hjnP798V6I/edit?usp=sharing"
+              notebook-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Student%20Notebook.pdf"
+              notebook-word="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Student%20Notebook.docx"
+              answers="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20ANSWER%20KEY.pdf"
             />
           </template>
         </ModuleRow>
@@ -130,7 +135,11 @@
           tank LEDs. Their task: Design a healthy and eye-pleasing aquarium, choosing a lighting
           scheme and using spectral data to explain their choices.
           <template #resource-list>
-            <ResourceList />
+            <ResourceList
+              slides="https://docs.google.com/presentation/d/1FB_vo2rYrSiNWPGeIjJJLSdE-5WNf-Siro7ee0StLM8/edit?usp=sharing"
+              slides-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fishtank%20Teacher%20Slides.pdf"
+              slides-ppt="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fishtank%20Teacher%20Slides.pptx"
+            />
           </template>
         </ModuleRow>
         <ModuleRow
