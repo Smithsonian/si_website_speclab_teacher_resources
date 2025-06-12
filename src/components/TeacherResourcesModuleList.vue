@@ -120,6 +120,7 @@
           :icon-source="fishtankIcon"
           icon-alt="Fishtank project icon"
           href="https://smithsonian.github.io/si_website_spectrum_lab/final-projects/fishtank"
+          indent
         >
           Students synthesize information about the reflection spectra of colorful fish; the
           lighting needs of chlorophyll-containing algae and coral; and the emission spectra of fish
@@ -134,6 +135,7 @@
           :icon-source="exoplanetsIcon"
           icon-alt="Exoplanets project icon"
           href="https://smithsonian.github.io/si_website_spectrum_lab/final-projects/exoplanets"
+          indent
         >
           Students analyze published low-resolution spectra of real exoplanets and compare them to
           hi-res solar system and theoretical model spectra to determine the atmospheric composition
@@ -149,6 +151,7 @@
           :icon-source="museumIcon"
           icon-alt="Museum conservation project icon"
           href="https://smithsonian.github.io/si_website_spectrum_lab/final-projects/museum"
+          indent
         >
           Students investigate how paint pigments reflect light at different wavelengths and learn
           how museum conservators use spectroscopy to identify materials and make decisions about
