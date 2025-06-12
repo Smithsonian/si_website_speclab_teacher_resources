@@ -4,8 +4,8 @@
       <ResourceItem>PDF</ResourceItem>
     </ResourceSubList>
     <ResourceSubList header="Classroom Slides">
-      <ResourceItem>Google slides</ResourceItem>
-      <ResourceItem>PDF</ResourceItem>
+      <ResourceItem :href="slides">Google slides</ResourceItem>
+      <ResourceItem :href="slidesPdf">PDF</ResourceItem>
     </ResourceSubList>
     <ResourceSubList header="Student Notebook Worksheets">
       <ResourceItem>Google doc</ResourceItem>
@@ -17,3 +17,15 @@
     </ResourceSubList>
   </ul>
 </template>
+
+<script setup lang="ts">
+defineProps<{
+  teacherGuide?: string;
+  slides?: string;
+  slidesPdf?: string;
+  notebook?: string;
+  notebookPdf?: string;
+  notebookWord?: string;
+  answers?: string;
+}>();
+</script>

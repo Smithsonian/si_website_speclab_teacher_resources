@@ -36,7 +36,10 @@
           introduced to explain emission, reflection, absorption, transmission. Students are asked
           to make sense of phenomena they observe with the colored filters using these concepts.
           <template #resource-list>
-            <ResourceList />
+            <ResourceList
+              slides="https://docs.google.com/presentation/d/1WF1wQifBMT-UtbQ2gbuPY4hdqiSlhZKXUkfq5d7K6oM/edit?usp=drive_link"
+              slides-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Teacher%20Slides.pdf"
+            />
           </template>
         </ModuleRow>
         <ModuleRow
