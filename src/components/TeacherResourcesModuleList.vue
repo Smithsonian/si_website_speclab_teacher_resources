@@ -139,6 +139,10 @@
               slides="https://docs.google.com/presentation/d/1FB_vo2rYrSiNWPGeIjJJLSdE-5WNf-Siro7ee0StLM8/edit?usp=sharing"
               slides-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fishtank%20Teacher%20Slides.pdf"
               slides-ppt="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fishtank%20Teacher%20Slides.pptx"
+              notebook="https://docs.google.com/document/d/12xds0lAumVzMdsvFP1Okw7J9Q8QdT2Xp4fUom2MOsiI/edit?usp=sharing"
+              notebook-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20Student%20Notebook.pdf"
+              notebook-word="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20Student%20Notebook.docx"
+              answers="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20ANSWER%20KEY.pdf"
             />
           </template>
         </ModuleRow>
