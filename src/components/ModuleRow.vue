@@ -37,9 +37,10 @@
 </template>
 
 <script setup lang="ts">
+import { isKeyTrue, removeKey, setKeyTrue } from '@/utils/storageUtils';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { SvgImage } from 'vite-awesome-svg-loader/vue-integration';
-import { computed, ref } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 
 const props = withDefaults(
   defineProps<{
@@ -56,12 +57,16 @@ const props = withDefaults(
 
 const isExpanded = ref(props.defaultOpen);
 
+const expandKey = `module_row-${props.title}`;
+
 const expand = () => {
   isExpanded.value = true;
+  setKeyTrue(expandKey);
 };
 
 const collapse = () => {
   isExpanded.value = false;
+  removeKey(expandKey);
 };
 
 const toggleExpanded = computed(() => {
@@ -69,6 +74,15 @@ const toggleExpanded = computed(() => {
     return collapse;
   } else {
     return expand;
+  }
+});
+
+onMounted(() => {
+  if (props.defaultOpen) {
+    return;
+  }
+  if (isKeyTrue(expandKey)) {
+    expand();
   }
 });
 </script>
