@@ -1,9 +1,7 @@
 <template>
   <ul class="list-unstyled">
     <ResourceSubList header="Teacher Guide">
-      <ResourceItem>Google doc</ResourceItem>
       <ResourceItem>PDF</ResourceItem>
-      <ResourceItem>Word doc</ResourceItem>
     </ResourceSubList>
     <ResourceSubList header="Classroom Slides">
       <ResourceItem>Google slides</ResourceItem>
