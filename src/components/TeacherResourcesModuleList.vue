@@ -186,7 +186,7 @@ import temperatureIcon from '@/assets/SVG/temperature_icon.svg?set-current-color
 import compositionIcon from '@/assets/SVG/composition_icon.svg?set-current-color';
 import finalProjectsIcon from '@/assets/SVG/final_projects_icon.svg?set-current-color';
 import fishtankIcon from '@/assets/SVG/fish_tank_icon.svg?set-current-color';
-import exoplanetsIcon from '@/assets/SVG/exoplanets_icon.svg?set-current-color';
+import exoplanetsIcon from '@/assets/SVG/modelTransit1.svg?set-current-color';
 import museumIcon from '@/assets/SVG/museum_conservation_icon.svg?set-current-color';
 import playgroundIcon from '@/assets/SVG/playground_icon.svg?set-current-color';
 </script>
