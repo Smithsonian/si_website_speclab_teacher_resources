@@ -144,6 +144,8 @@
               notebook-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20Student%20Notebook.pdf"
               notebook-word="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20Student%20Notebook.docx"
               answers="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20ANSWER%20KEY.pdf"
+              is-final-project
+              datasheet="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20Project%20Data%20Charts.pdf"
             />
           </template>
         </ModuleRow>
@@ -160,7 +162,7 @@
           IR-observing James Webb Space Telescope to obtain spectra from an exoplanet target of
           their choice.
           <template #resource-list>
-            <ResourceList />
+            <ResourceList is-final-project />
           </template>
         </ModuleRow>
         <ModuleRow
@@ -175,7 +177,10 @@
           how to best care for and restore the artwork. Their task: Create a museum display that
           conveys how spectra are used in art conservation.
           <template #resource-list>
-            <ResourceList />
+            <ResourceList
+              is-final-project
+              datasheet="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Museum%20Conservation%20Pigments%20Data%20Table.pdf"
+            />
           </template>
         </ModuleRow>
         <ModuleRow
