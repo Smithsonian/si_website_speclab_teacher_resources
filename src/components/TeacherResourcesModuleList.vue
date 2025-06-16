@@ -37,6 +37,7 @@
           to make sense of phenomena they observe with the colored filters using these concepts.
           <template #resource-list>
             <ResourceList
+              teacher-guide="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Teacher%20Guide.pdf"
               slides="https://docs.google.com/presentation/d/14N4v2-SpHKoffbHwUIwHWJkZ50xPdV019D2BObWWBr8/edit?usp=sharing"
               slides-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Teacher%20Slides.pdf"
               slides-ppt="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Teacher%20Slides.pptx"
