@@ -37,10 +37,10 @@
           to make sense of phenomena they observe with the colored filters using these concepts.
           <template #resource-list>
             <ResourceList
-              slides="https://docs.google.com/presentation/d/1WF1wQifBMT-UtbQ2gbuPY4hdqiSlhZKXUkfq5d7K6oM/edit?usp=drive_link"
+              slides="https://docs.google.com/presentation/d/14N4v2-SpHKoffbHwUIwHWJkZ50xPdV019D2BObWWBr8/edit?usp=sharing"
               slides-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Teacher%20Slides.pdf"
               slides-ppt="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Teacher%20Slides.pptx"
-              notebook="https://docs.google.com/document/d/1Jg84xIRNe0F_LgSvJTM6_38DQcyzHfbl8hjnP798V6I/edit?usp=sharing"
+              notebook="https://docs.google.com/document/d/1V2VWiEBpkkbPLmYkpyVWORhxNeYpCeI1Kxbont7jO14/edit?usp=sharing"
               notebook-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Student%20Notebook.pdf"
               notebook-word="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Student%20Notebook.docx"
               answers="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20ANSWER%20KEY.pdf"
