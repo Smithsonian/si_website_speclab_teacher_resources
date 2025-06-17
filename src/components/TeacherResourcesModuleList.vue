@@ -16,12 +16,16 @@
             Conservation final project). Educators can select the Spectrum Lab modules that best
             suit their classes.
           </p>
-          <p>
-            <BLink
+          <ul class="list-unstyled">
+            <ResourceItem
               href="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/SpectrumLab%20Curriculum%20Overview.pdf"
-              >Curriculum Overview</BLink
+              >Curriculum Overview</ResourceItem
             >
-          </p>
+            <ResourceItem
+              href="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/How%20to%20use%20the%20Spectrum%20Lab.pdf"
+              >How to use the Spectrum Lab</ResourceItem
+            >
+          </ul>
         </div>
         <ModuleRow
           title="1. Light"
