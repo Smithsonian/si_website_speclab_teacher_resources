@@ -144,9 +144,14 @@
               notebook-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20Student%20Notebook.pdf"
               notebook-word="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20Student%20Notebook.docx"
               answers="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20ANSWER%20KEY.pdf"
-              is-final-project
-              datasheet="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20Project%20Data%20Charts.pdf"
-            />
+            >
+              <ResourceSubList header="Extras">
+                <ResourceItem
+                  href="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20Project%20Data%20Charts.pdf"
+                  >Fish Tank Data Table (PDF)</ResourceItem
+                >
+              </ResourceSubList>
+            </ResourceList>
           </template>
         </ModuleRow>
         <ModuleRow
@@ -178,9 +183,23 @@
           conveys how spectra are used in art conservation.
           <template #resource-list>
             <ResourceList
+              notebook="https://docs.google.com/document/d/1YOy7qTdmpTLjND65mImiAiUIRlwk3afIMqyvCT0a2Ac/edit?usp=sharing"
+              notebook-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Museum%20Conservation%20Student%20Notebook.pdf"
+              notebook-word="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Museum%20Conservation%20Student%20Notebook.docx"
               is-final-project
-              datasheet="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Museum%20Conservation%20Pigments%20Data%20Table.pdf"
-            />
+              datasheet=""
+            >
+              <ResourceSubList header="Extras">
+                <ResourceItem
+                  href="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Museum%20Conservation%20Pigments%20Data%20Table.pdf"
+                  >Pigment Data Table (PDF)</ResourceItem
+                >
+                <ResourceItem
+                  href="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Museum%20Conservation%20Technique%20Description.pdf"
+                  >Technique Descriptions (PDF)</ResourceItem
+                >
+              </ResourceSubList>
+            </ResourceList>
           </template>
         </ModuleRow>
         <ModuleRow

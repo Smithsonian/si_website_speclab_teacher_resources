@@ -16,9 +16,7 @@
     <ResourceSubList header="Student Notebook Answer Keys">
       <ResourceItem :href="answers">PDF</ResourceItem>
     </ResourceSubList>
-    <ResourceSubList v-if="isFinalProject" header="Project Datasheet">
-      <ResourceItem :href="datasheet">PDF</ResourceItem>
-    </ResourceSubList>
+    <slot></slot>
   </ul>
 </template>
 
