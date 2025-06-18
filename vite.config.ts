@@ -7,6 +7,10 @@ import Components from 'unplugin-vue-components/vite';
 import { BootstrapVueNextResolver } from 'bootstrap-vue-next';
 import { viteAwesomeSvgLoader } from 'vite-awesome-svg-loader';
 
+// Different build output dirs for different deploy envs with different
+// base paths
+const outDir = process.env.ENV ? `dist-${process.env.ENV}` : 'dist';
+
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
@@ -32,5 +36,8 @@ export default defineConfig({
         silenceDeprecations: ['import', 'mixed-decls', 'color-functions', 'global-builtin'],
       },
     },
+  },
+  build: {
+    outDir,
   },
 });
