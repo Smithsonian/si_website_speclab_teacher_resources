@@ -31,7 +31,7 @@
           title="1. Light"
           :icon-source="lightIcon"
           icon-alt="Light module icon"
-          href="https://smithsonian.github.io/si_website_spectrum_lab/light"
+          :href="`${SPECLAB_URL}/light`"
           tagline="How does the interaction of light and matter affect the colors we see?"
           default-open
         >
@@ -56,7 +56,7 @@
           title="2. Spectra"
           :icon-source="spectraIcon"
           icon-alt="Spectra module icon"
-          href="https://smithsonian.github.io/si_website_spectrum_lab/spectra"
+          :href="`${SPECLAB_URL}/spectra`"
           tagline="How can a spectrum tell us more than our eyes can perceive?"
         >
           Students make their own spectroscopes using diffraction gratings and paper towel tubes,
@@ -73,7 +73,7 @@
           title="3. Color"
           :icon-source="colorIcon"
           icon-alt="Color module icon"
-          href="https://smithsonian.github.io/si_website_spectrum_lab/color"
+          :href="`${SPECLAB_URL}/color`"
           tagline="How can spectra tell us what color things are?"
         >
           Human eyes (and brains) perceive an object to be a certain color based on the specific
@@ -88,7 +88,7 @@
           title="4. Temperature"
           :icon-source="temperatureIcon"
           icon-alt="Temperature module icon"
-          href="https://smithsonian.github.io/si_website_spectrum_lab/temperature"
+          :href="`${SPECLAB_URL}/temperature`"
           tagline="What can spectra tell us about an object’s temperature?"
         >
           Students explore the features of thermal emission spectra - both theoretical models
@@ -103,7 +103,7 @@
           title="5. Composition"
           :icon-source="compositionIcon"
           icon-alt="Composition module icon"
-          href="https://smithsonian.github.io/si_website_spectrum_lab/composition"
+          :href="`${SPECLAB_URL}/composition`"
           tagline="How can spectra tell us what things are made of?"
         >
           Students examine real emission and absorption line spectra of different gases and are
@@ -121,7 +121,7 @@
           title="Final projects"
           :icon-source="finalProjectsIcon"
           icon-alt="Final projects icon"
-          href="https://smithsonian.github.io/si_website_spectrum_lab/final-projects"
+          :href="`${SPECLAB_URL}/final-projects`"
         >
           The Spectrum Lab Module includes a choice of 3 Final Projects that serve as authentic
           performance assessments for students to synthesize and apply the concepts and skills
@@ -132,7 +132,7 @@
           title="Fishtank"
           :icon-source="fishtankIcon"
           icon-alt="Fishtank project icon"
-          href="https://smithsonian.github.io/si_website_spectrum_lab/final-projects/fishtank"
+          :href="`${SPECLAB_URL}/final-projects/fishtank`"
           indent
         >
           Students synthesize information about the reflection spectra of colorful fish; the
@@ -162,7 +162,7 @@
           title="Exoplanets"
           :icon-source="exoplanetsIcon"
           icon-alt="Exoplanets project icon"
-          href="https://smithsonian.github.io/si_website_spectrum_lab/final-projects/exoplanets"
+          :href="`${SPECLAB_URL}/final-projects/exoplanets`"
           indent
         >
           Students analyze published low-resolution spectra of real exoplanets and compare them to
@@ -178,7 +178,7 @@
           title="Museum conservation"
           :icon-source="museumIcon"
           icon-alt="Museum conservation project icon"
-          href="https://smithsonian.github.io/si_website_spectrum_lab/final-projects/museum"
+          :href="`${SPECLAB_URL}/final-projects/museum`"
           indent
         >
           Students investigate how paint pigments reflect light at different wavelengths and learn
@@ -210,7 +210,7 @@
           title="Playground"
           :icon-source="playgroundIcon"
           icon-alt="Playground icon"
-          href="https://smithsonian.github.io/si_website_spectrum_lab/playground"
+          :href="`${SPECLAB_URL}/playground`"
         >
           This feature of the Spectrum Lab allows teachers and students to flexibly access, analyze,
           and compare data from a curated database of over 100 spectra in multiple categories
@@ -234,6 +234,7 @@ import fishtankIcon from '@/assets/SVG/fish_tank_icon.svg?set-current-color';
 import exoplanetsIcon from '@/assets/SVG/modelTransit1.svg?set-current-color';
 import museumIcon from '@/assets/SVG/museum_conservation_icon.svg?set-current-color';
 import playgroundIcon from '@/assets/SVG/playground_icon.svg?set-current-color';
+import { SPECLAB_URL } from '@/constants';
 </script>
 
 <style>
