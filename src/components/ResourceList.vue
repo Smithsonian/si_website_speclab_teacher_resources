@@ -5,8 +5,6 @@
     </ResourceSubList>
     <ResourceSubList header="Classroom Slides">
       <ResourceItem :href="slides">Google slides</ResourceItem>
-      <ResourceItem :href="slidesPdf">PDF</ResourceItem>
-      <ResourceItem :href="slidesPpt">PowerPoint</ResourceItem>
     </ResourceSubList>
     <ResourceSubList header="Student Notebook Worksheets">
       <ResourceItem :href="notebook">Google doc</ResourceItem>
@@ -24,8 +22,6 @@
 defineProps<{
   teacherGuide?: string;
   slides?: string;
-  slidesPdf?: string;
-  slidesPpt?: string;
   notebook?: string;
   notebookPdf?: string;
   notebookWord?: string;
