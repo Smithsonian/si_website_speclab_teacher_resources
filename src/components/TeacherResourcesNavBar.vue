@@ -19,24 +19,24 @@
         Spectrum Lab
       </BNavItem>
       <BNavText class="text-gen-grey">|</BNavText>
-      <BNavItem
+      <BButton
         v-if="!auth.username"
-        @click="loginModal = !loginModal"
-        variant="light"
+        @click="loginModal = true"
+        variant="link"
         opacity-hover="75"
-        class="text-uppercase"
+        class="nav-link link-light text-uppercase"
       >
         Login
-      </BNavItem>
-      <BNavItem
+      </BButton>
+      <BButton
         v-else
         @click="auth.submitLogout"
-        variant="light"
+        variant="link"
         opacity-hover="75"
-        class="text-uppercase"
+        class="nav-link link-light text-uppercase"
       >
         Logout
-      </BNavItem>
+      </BButton>
     </BNavbarNav>
     <LoginModal v-model="loginModal" />
   </BNavbar>

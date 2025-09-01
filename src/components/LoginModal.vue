@@ -32,7 +32,8 @@ const model = defineModel<boolean>();
 const auth = useAuthStore();
 const email = ref('');
 const password = ref('');
-const submitLogin = async () => {
+const submitLogin = async (event: Event) => {
+  event.preventDefault();
   await auth.submitLogin(email.value, password.value);
 };
 </script>
