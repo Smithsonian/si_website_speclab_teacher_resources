@@ -30,10 +30,12 @@
       </BButton>
       <BButton
         v-else
-        @click="auth.submitLogout"
+        @click="submitLogout"
         variant="link"
         opacity-hover="75"
         class="nav-link link-light text-uppercase"
+        :loading="logoutLoading"
+        loading-fill
       >
         Logout
       </BButton>
@@ -49,5 +51,14 @@ import { SPECLAB_URL } from '@/constants';
 import { useAuthStore } from '@/store/auth';
 import { ref } from 'vue';
 const loginModal = ref(false);
+const logoutLoading = ref(false);
 const auth = useAuthStore();
+const submitLogout = async () => {
+  logoutLoading.value = true;
+  try {
+    await auth.submitLogout();
+  } finally {
+    logoutLoading.value = false;
+  }
+};
 </script>
