@@ -88,3 +88,12 @@ $nav-pills-border-radius: 0;
 .bg-slr-light-grey {
   background-color: var(--slr-light-grey) !important;
 }
+
+// Custom classes
+// Adapted from .invalid-feedback, but without looking for a nearby group
+.form-error {
+  width: 100%;
+  margin: 1rem 0;
+  font-size: 0.875em;
+  color: var(--bs-form-invalid-color);
+}

@@ -38,7 +38,9 @@
         Logout
       </BButton>
     </BNavbarNav>
-    <LoginModal v-model="loginModal" />
+    <BModal title="Log in" id="login-modal" v-model="loginModal" lazy unmount-lazy no-footer>
+      <LoginModal />
+    </BModal>
   </BNavbar>
 </template>
 

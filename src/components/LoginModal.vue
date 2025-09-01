@@ -1,39 +1,49 @@
 <template>
-  <BModal v-model="model" title="Log in">
-    <BForm @submit="submitLogin">
-      <BFormGroup id="login-group-email" label="Email" label-for="login-email">
-        <BFormInput
-          id="login-email"
-          v-model="email"
-          type="email"
-          placeholder="Enter email"
-          required
-        />
-      </BFormGroup>
-      <BFormGroup id="login-group-password" label="Password" label-for="login-password">
-        <BFormInput
-          id="login-password"
-          v-model="password"
-          type="password"
-          placeholder="Enter password"
-          required
-        />
-      </BFormGroup>
-      <BButton type="submit" variant="primary">Log in</BButton>
-    </BForm>
-  </BModal>
+  <BForm @submit="submitLogin">
+    <BFormGroup id="login-group-email" label="Email" label-for="login-email" class="mb-3">
+      <BFormInput
+        id="login-email"
+        v-model="email"
+        type="email"
+        placeholder="Enter email"
+        required
+      />
+    </BFormGroup>
+    <BFormGroup id="login-group-password" label="Password" label-for="login-password" class="mb-3">
+      <BFormInput
+        id="login-password"
+        v-model="password"
+        type="password"
+        placeholder="Enter password"
+        required
+      />
+    </BFormGroup>
+    <div v-if="error" class="form-error">{{ error }}</div>
+    <BButton type="submit" variant="primary">Log in</BButton>
+  </BForm>
 </template>
 
 <script setup lang="ts">
 import { useAuthStore } from '@/store/auth';
+import { useModal } from 'bootstrap-vue-next';
 import { ref } from 'vue';
 
-const model = defineModel<boolean>();
 const auth = useAuthStore();
 const email = ref('');
 const password = ref('');
+const error = ref('');
+const { hide } = useModal('login-modal');
 const submitLogin = async (event: Event) => {
   event.preventDefault();
-  await auth.submitLogin(email.value, password.value);
+  try {
+    await auth.submitLogin(email.value, password.value);
+    hide();
+  } catch (e) {
+    if (e instanceof Error) {
+      error.value = e.message;
+    } else {
+      error.value = `${e}`;
+    }
+  }
 };
 </script>
