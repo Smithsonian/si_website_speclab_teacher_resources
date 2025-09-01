@@ -19,7 +19,7 @@
       />
     </BFormGroup>
     <div v-if="error" class="form-error">{{ error }}</div>
-    <BButton type="submit" variant="primary" :loading="loading">Log in</BButton>
+    <BButton type="submit" variant="primary" :loading="loading" loading-fill>Log in</BButton>
   </BForm>
 </template>
 
