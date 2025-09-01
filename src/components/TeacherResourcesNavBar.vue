@@ -39,7 +39,7 @@
       </BButton>
     </BNavbarNav>
     <BModal title="Log in" id="login-modal" v-model="loginModal" lazy unmount-lazy no-footer>
-      <LoginModal />
+      <LoginModalBody />
     </BModal>
   </BNavbar>
 </template>
