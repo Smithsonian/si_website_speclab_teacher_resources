@@ -19,7 +19,7 @@
       />
     </BFormGroup>
     <div v-if="error" class="form-error">{{ error }}</div>
-    <BButton type="submit" variant="primary">Log in</BButton>
+    <BButton type="submit" variant="primary" :loading="loading">Log in</BButton>
   </BForm>
 </template>
 
@@ -32,11 +32,14 @@ const auth = useAuthStore();
 const email = ref('');
 const password = ref('');
 const error = ref('');
+const loading = ref(false);
 const { hide } = useModal('login-modal');
 const submitLogin = async (event: Event) => {
   event.preventDefault();
   try {
+    loading.value = true;
     await auth.submitLogin(email.value, password.value);
+    error.value = '';
     hide();
   } catch (e) {
     if (e instanceof Error) {
@@ -44,6 +47,8 @@ const submitLogin = async (event: Event) => {
     } else {
       error.value = `${e}`;
     }
+  } finally {
+    loading.value = false;
   }
 };
 </script>
