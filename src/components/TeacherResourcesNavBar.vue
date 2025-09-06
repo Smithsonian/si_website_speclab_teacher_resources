@@ -57,6 +57,8 @@ const submitLogout = async () => {
   logoutLoading.value = true;
   try {
     await auth.submitLogout();
+  } catch (error) {
+    console.error(error);
   } finally {
     logoutLoading.value = false;
   }

@@ -22,6 +22,6 @@ export const createApp = ViteSSG(App, ({ app, initialState }) => {
     pinia.state.value = initialState.pinia || {};
     const auth = useAuthStore(pinia);
     // Don't wait for response, just fire it off
-    auth.fetchLoggedIn();
+    auth.fetchLoggedIn().catch((error) => console.error(error));
   }
 });
