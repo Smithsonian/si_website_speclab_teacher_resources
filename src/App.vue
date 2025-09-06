@@ -20,4 +20,6 @@ configure({ tagId: 'G-B2HMDCPFNR' });
   <footer>
     <TeacherResourcesFooter />
   </footer>
+
+  <QueryModals />
 </template>
