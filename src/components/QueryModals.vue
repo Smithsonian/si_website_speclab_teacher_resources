@@ -1,27 +1,27 @@
 <template>
   <BModal
-    title="Email verification"
-    id="verify-email"
-    v-model="verifyEmailModal"
+    title="Email confirmation"
+    id="confirm-email"
+    v-model="confirmEmailModal"
     lazy
     unmount-lazy
     no-footer
   >
-    <VerifyEmailModalBody :verification-code="verificationCode" />
+    <ConfirmEmailModalBody :confirmationCode="confirmationCode" />
   </BModal>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
 
-const verifyEmailModal = ref(false);
-const verificationCode = ref<string | null>(null);
+const confirmEmailModal = ref(false);
+const confirmationCode = ref<string | null>(null);
 const search = window.location.search;
 const path = window.location.pathname;
 window.history.replaceState(null, '', path);
 const params = new URLSearchParams(search);
-verificationCode.value = params.get('verificationCode');
-if (verificationCode.value) {
-  verifyEmailModal.value = true;
+confirmationCode.value = params.get('confirmationCode');
+if (confirmationCode.value) {
+  confirmEmailModal.value = true;
 }
 </script>
