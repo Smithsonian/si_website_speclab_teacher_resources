@@ -43,6 +43,9 @@
     <BModal title="Log in" id="login-modal" v-model="loginModal" lazy unmount-lazy no-footer>
       <LoginModalBody />
     </BModal>
+    <BModal title="Sign up" id="signup-modal" v-model="signupModal" lazy no-footer>
+      <SignupModalBody />
+    </BModal>
   </BNavbar>
 </template>
 
@@ -51,6 +54,7 @@ import { SPECLAB_URL } from '@/constants';
 import { useAuthStore } from '@/store/auth';
 import { ref } from 'vue';
 const loginModal = ref(false);
+const signupModal = ref(false);
 const logoutLoading = ref(false);
 const auth = useAuthStore();
 const submitLogout = async () => {
