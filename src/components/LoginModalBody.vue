@@ -6,6 +6,7 @@
         v-model="email"
         type="email"
         placeholder="Enter email"
+        autocomplete="username email"
         required
       />
     </BFormGroup>
@@ -15,6 +16,7 @@
         v-model="password"
         type="password"
         placeholder="Enter password"
+        autocomplete="current-password"
         required
       />
     </BFormGroup>
