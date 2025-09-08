@@ -127,6 +127,11 @@
         >.
       </BFormCheckbox>
     </div>
+    <div class="mb-3">
+      <BFormCheckbox id="signup-get-updates" v-model="signedUpForUpdates">
+        Sign up for news and updates (optional).
+      </BFormCheckbox>
+    </div>
     <div v-if="errorArray" class="form-error">
       <p v-for="[field, message] in errorArray" v-bind:key="field">{{ field }}: {{ message }}</p>
     </div>
@@ -146,6 +151,7 @@ const password = ref('');
 const passwordConfirmation = ref('');
 const userZipCode = ref('');
 const agreedToTerms = ref(false);
+const signedUpForUpdates = ref(false);
 
 const firstName = ref('');
 const lastName = ref('');
@@ -173,6 +179,7 @@ const submitSignup = async (event: Event) => {
         zipCode: userZipCode.value,
         initialDataLab: 'Speclab',
         agreedToTerms: agreedToTerms.value,
+        signedUpForUpdates: signedUpForUpdates.value,
       },
       educator: {
         firstName: firstName.value,
