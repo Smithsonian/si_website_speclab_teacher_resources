@@ -43,8 +43,18 @@
     <BModal title="Log in" id="login-modal" v-model="loginModal" lazy unmount-lazy no-footer>
       <LoginModalBody />
     </BModal>
-    <BModal title="Sign up" id="signup-modal" v-model="signupModal" lazy no-footer>
+    <BModal title="Sign up" id="signup-modal" v-model="signupModal" lazy no-footer size="xl">
       <SignupModalBody />
+    </BModal>
+    <BModal
+      title="Sign up success"
+      id="signup-success-modal"
+      v-model="signupSuccessModal"
+      lazy
+      unmount-lazy
+      no-footer
+    >
+      <SignupSuccessModalBody />
     </BModal>
   </BNavbar>
 </template>
@@ -55,6 +65,7 @@ import { useAuthStore } from '@/store/auth';
 import { ref } from 'vue';
 const loginModal = ref(false);
 const signupModal = ref(false);
+const signupSuccessModal = ref(false);
 const logoutLoading = ref(false);
 const auth = useAuthStore();
 const submitLogout = async () => {

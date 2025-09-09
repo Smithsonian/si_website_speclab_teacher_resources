@@ -1,125 +1,131 @@
 <template>
   <div>
     <BForm @submit="submitSignup" method="post">
-      <div class="mb-3">
-        <label for="signup-email" class="form-label">Email</label>
-        <BFormInput
-          id="signup-email"
-          v-model="email"
-          type="email"
-          autocomplete="username email"
-          required
-        />
-      </div>
-      <div class="mb-3">
-        <label for="signup-password" class="form-label">Password</label>
-        <BFormInput
-          id="signup-password"
-          v-model="password"
-          type="password"
-          autocomplete="new-password"
-          required
-          passwordrules="minlength: 7; maxlength: 16; required: lower; required: upper; required: digit;"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="signup-password-confirmation" class="form-label">Confirm password</label>
-        <BFormInput
-          id="signup-password-confirmation"
-          v-model="passwordConfirmation"
-          type="password"
-          autocomplete="new-password"
-          required
-        />
-      </div>
-      <div class="mb-3">
-        <label for="signup-username" class="form-label">Username</label>
-        <BFormInput id="signup-username" v-model="username" type="text" required />
-      </div>
-      <div class="mb-3">
-        <label for="signup-zipcode" class="form-label">Zip code</label>
-        <BFormInput
-          id="signup-zipcode"
-          v-model="userZipCode"
-          type="text"
-          autocomplete="postal-code"
-          required
-        />
-      </div>
-      <div class="mb-3">
-        <label for="signup-firstname" class="form-label">First name</label>
-        <BFormInput
-          id="signup-firstname"
-          v-model="firstName"
-          type="text"
-          autocomplete="given-name"
-          required
-        />
-      </div>
-      <div class="mb-3">
-        <label for="signup-lastname" class="form-label">Last name</label>
-        <BFormInput
-          id="signup-lastname"
-          v-model="lastName"
-          type="text"
-          autocomplete="family-name"
-          required
-        />
-      </div>
-      <div class="mb-3">
-        <label for="signup-curriculum" class="form-label">Proposed curriculum</label>
-        <BFormTextarea id="signup-curriculum" v-model="curriculum" required />
-      </div>
-      <div class="mb-3">
-        <label for="signup-institutionname" class="form-label">Institution name</label>
-        <BFormInput
-          id="signup-institutionname"
-          v-model="institutionName"
-          type="text"
-          autocomplete="organization"
-          required
-        />
-      </div>
-      <div class="mb-3">
-        <label for="signup-institutioncountry" class="form-label">Institution country</label>
-        <BFormInput
-          id="signup-institutioncountry"
-          v-model="institutionCountry"
-          type="text"
-          autocomplete="country-name"
-          required
-        />
-      </div>
-      <div class="mb-3">
-        <label for="signup-institutionstate" class="form-label">Institution state</label>
-        <BFormInput
-          id="signup-institutionstate"
-          v-model="institutionState"
-          type="text"
-          autocomplete="address-level1"
-          required
-        />
-      </div>
-      <div class="mb-3">
-        <label for="signup-institutioncity" class="form-label">Institution city</label>
-        <BFormInput
-          id="signup-institutioncity"
-          v-model="institutionCity"
-          type="text"
-          autocomplete="address-level2"
-          required
-        />
-      </div>
-      <div class="mb-3">
-        <label for="signup-institutionzip" class="form-label">Institution zip code</label>
-        <BFormInput
-          id="signup-institutionzip"
-          v-model="institutionZipCode"
-          type="text"
-          autocomplete="postal-code"
-          required
-        />
-      </div>
+      <BRow>
+        <BCol cols="12" lg="6">
+          <div class="mb-3">
+            <label for="signup-email" class="form-label">Email</label>
+            <BFormInput
+              id="signup-email"
+              v-model="email"
+              type="email"
+              autocomplete="username email"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="signup-password" class="form-label">Password</label>
+            <BFormInput
+              id="signup-password"
+              v-model="password"
+              type="password"
+              autocomplete="new-password"
+              required
+              passwordrules="minlength: 7; maxlength: 16; required: lower; required: upper; required: digit;"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="signup-password-confirmation" class="form-label">Confirm password</label>
+            <BFormInput
+              id="signup-password-confirmation"
+              v-model="passwordConfirmation"
+              type="password"
+              autocomplete="new-password"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="signup-username" class="form-label">Username</label>
+            <BFormInput id="signup-username" v-model="username" type="text" required />
+          </div>
+          <div class="mb-3">
+            <label for="signup-zipcode" class="form-label">Zip code</label>
+            <BFormInput
+              id="signup-zipcode"
+              v-model="userZipCode"
+              type="text"
+              autocomplete="postal-code"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="signup-firstname" class="form-label">First name</label>
+            <BFormInput
+              id="signup-firstname"
+              v-model="firstName"
+              type="text"
+              autocomplete="given-name"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="signup-lastname" class="form-label">Last name</label>
+            <BFormInput
+              id="signup-lastname"
+              v-model="lastName"
+              type="text"
+              autocomplete="family-name"
+              required
+            />
+          </div>
+        </BCol>
+        <BCol>
+          <div class="mb-3">
+            <label for="signup-institutionname" class="form-label">Institution name</label>
+            <BFormInput
+              id="signup-institutionname"
+              v-model="institutionName"
+              type="text"
+              autocomplete="organization"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="signup-institutioncountry" class="form-label">Institution country</label>
+            <BFormInput
+              id="signup-institutioncountry"
+              v-model="institutionCountry"
+              type="text"
+              autocomplete="country-name"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="signup-institutionstate" class="form-label">Institution state</label>
+            <BFormInput
+              id="signup-institutionstate"
+              v-model="institutionState"
+              type="text"
+              autocomplete="address-level1"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="signup-institutioncity" class="form-label">Institution city</label>
+            <BFormInput
+              id="signup-institutioncity"
+              v-model="institutionCity"
+              type="text"
+              autocomplete="address-level2"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="signup-institutionzip" class="form-label">Institution zip code</label>
+            <BFormInput
+              id="signup-institutionzip"
+              v-model="institutionZipCode"
+              type="text"
+              autocomplete="postal-code"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="signup-curriculum" class="form-label">Proposed curriculum</label>
+            <BFormTextarea id="signup-curriculum" v-model="curriculum" required />
+          </div>
+        </BCol>
+      </BRow>
       <div class="mb-3">
         <BFormCheckbox id="signup-accept-tos" v-model="agreedToTerms" required>
           I accept and agree to abide by the
@@ -146,6 +152,7 @@
 </template>
 
 <script setup lang="ts">
+import { useSignupStore } from '@/store/signup';
 import { fetchAndParse } from '@/utils/fetchUtils';
 import { useModal } from 'bootstrap-vue-next';
 import { computed, ref } from 'vue';
@@ -153,10 +160,16 @@ import z from 'zod';
 
 const { hide: hideSignup } = useModal('signup-modal');
 const { show: showLogin } = useModal('login-modal');
+const { show: showSuccess } = useModal('signup-success-modal');
 
 const switchToLoginModal = () => {
   hideSignup();
   showLogin();
+};
+
+const switchToSuccessModal = () => {
+  hideSignup();
+  showSuccess();
 };
 
 const username = ref('');
@@ -178,12 +191,13 @@ const institutionZipCode = ref('');
 
 const error = ref('');
 const loading = ref(false);
-const { hide } = useModal('signup-modal');
+const { setSignupEmail } = useSignupStore();
 const SignupResult = z.object({});
 const submitSignup = async (event: Event) => {
   event.preventDefault();
   try {
     loading.value = true;
+    setSignupEmail(email.value);
     await fetchAndParse('/signup', 'POST', SignupResult, {
       user: {
         username: username.value,
@@ -209,7 +223,7 @@ const submitSignup = async (event: Event) => {
       },
     });
     error.value = '';
-    hide();
+    switchToSuccessModal();
   } catch (e) {
     if (e instanceof Error) {
       error.value = e.message;
