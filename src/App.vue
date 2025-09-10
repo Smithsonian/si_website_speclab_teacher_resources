@@ -8,18 +8,20 @@ configure({ tagId: 'G-B2HMDCPFNR' });
 </script>
 
 <template>
-  <header>
-    <TeacherResourcesNavBar />
-  </header>
+  <BApp>
+    <header>
+      <TeacherResourcesNavBar />
+    </header>
 
-  <main>
-    <TeacherResourcesIntro />
-    <TeacherResourcesModuleList />
-  </main>
+    <main>
+      <TeacherResourcesIntro />
+      <TeacherResourcesModuleList />
+    </main>
 
-  <footer>
-    <TeacherResourcesFooter />
-  </footer>
+    <footer>
+      <TeacherResourcesFooter />
+    </footer>
 
-  <QueryModals />
+    <QueryModals />
+  </BApp>
 </template>

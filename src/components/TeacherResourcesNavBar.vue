@@ -62,16 +62,26 @@
 <script setup lang="ts">
 import { SPECLAB_URL } from '@/constants';
 import { useAuthStore } from '@/store/auth';
+import { useToast } from 'bootstrap-vue-next';
 import { ref } from 'vue';
 const loginModal = ref(false);
 const signupModal = ref(false);
 const signupSuccessModal = ref(false);
 const logoutLoading = ref(false);
 const auth = useAuthStore();
+const { create } = useToast();
 const submitLogout = async () => {
   logoutLoading.value = true;
   try {
     await auth.submitLogout();
+    create({
+      variant: 'success',
+      body: 'Log out successful.',
+      progressProps: {
+        variant: 'success',
+      },
+      closeClass: 'btn-close-white',
+    });
   } catch (error) {
     console.error(error);
   } finally {

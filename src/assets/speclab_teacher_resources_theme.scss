@@ -84,6 +84,11 @@ $nav-pills-border-radius: 0;
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-vue-next/src/styles/styles.scss';
 
+// bootstrap-vue-next customization
+.toast-container {
+  margin-top: 3rem;
+}
+
 // Utility classes
 .bg-slr-light-grey {
   background-color: var(--slr-light-grey) !important;

@@ -154,13 +154,13 @@
 <script setup lang="ts">
 import { useSignupStore } from '@/store/signup';
 import { fetchAndParse } from '@/utils/fetchUtils';
-import { useModal } from 'bootstrap-vue-next';
+import { useToggle } from 'bootstrap-vue-next';
 import { computed, ref } from 'vue';
 import z from 'zod';
 
-const { hide: hideSignup } = useModal('signup-modal');
-const { show: showLogin } = useModal('login-modal');
-const { show: showSuccess } = useModal('signup-success-modal');
+const { hide: hideSignup } = useToggle('signup-modal');
+const { show: showLogin } = useToggle('login-modal');
+const { show: showSuccess } = useToggle('signup-success-modal');
 
 const switchToLoginModal = () => {
   hideSignup();
