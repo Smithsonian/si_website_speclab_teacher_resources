@@ -22,6 +22,6 @@ configure({ tagId: 'G-B2HMDCPFNR' });
       <TeacherResourcesFooter />
     </footer>
 
-    <QueryModals />
+    <AllModals />
   </BApp>
 </template>

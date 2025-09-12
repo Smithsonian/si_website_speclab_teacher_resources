@@ -120,10 +120,6 @@
               required
             />
           </div>
-          <div class="mb-3">
-            <label for="signup-curriculum" class="form-label">Proposed curriculum</label>
-            <BFormTextarea id="signup-curriculum" v-model="curriculum" required />
-          </div>
         </BCol>
       </BRow>
       <div class="mb-3">
@@ -152,24 +148,22 @@
 </template>
 
 <script setup lang="ts">
+import { useModalsStore } from '@/store/modals';
 import { useSignupStore } from '@/store/signup';
 import { fetchAndParse } from '@/utils/fetchUtils';
-import { useToggle } from 'bootstrap-vue-next';
 import { computed, ref } from 'vue';
 import z from 'zod';
 
-const { hide: hideSignup } = useToggle('signup-modal');
-const { show: showLogin } = useToggle('login-modal');
-const { show: showSuccess } = useToggle('signup-success-modal');
+const modals = useModalsStore();
 
 const switchToLoginModal = () => {
-  hideSignup();
-  showLogin();
+  modals.showSignup = false;
+  modals.showLogin = true;
 };
 
 const switchToSuccessModal = () => {
-  hideSignup();
-  showSuccess();
+  modals.showSignup = false;
+  modals.showSignupSuccess = true;
 };
 
 const username = ref('');
@@ -182,7 +176,6 @@ const signedUpForUpdates = ref(false);
 
 const firstName = ref('');
 const lastName = ref('');
-const curriculum = ref('');
 const institutionName = ref('');
 const institutionCountry = ref('');
 const institutionState = ref('');
@@ -191,13 +184,13 @@ const institutionZipCode = ref('');
 
 const error = ref('');
 const loading = ref(false);
-const { setSignupEmail } = useSignupStore();
+const signupStore = useSignupStore();
 const SignupResult = z.object({});
 const submitSignup = async (event: Event) => {
   event.preventDefault();
   try {
     loading.value = true;
-    setSignupEmail(email.value);
+    signupStore.setSignupEmail(email.value);
     await fetchAndParse('/signup', 'POST', SignupResult, {
       user: {
         username: username.value,
@@ -212,7 +205,6 @@ const submitSignup = async (event: Event) => {
       educator: {
         firstName: firstName.value,
         lastName: lastName.value,
-        proposedCurriculum: curriculum.value,
         institution: {
           name: institutionName.value,
           country: institutionCountry.value,

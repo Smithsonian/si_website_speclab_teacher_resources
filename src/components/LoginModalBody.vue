@@ -38,19 +38,19 @@
 
 <script setup lang="ts">
 import { useAuthStore } from '@/store/auth';
-import { useToast, useToggle } from 'bootstrap-vue-next';
+import { useModalsStore } from '@/store/modals';
+import { useToast } from 'bootstrap-vue-next';
 import { ref } from 'vue';
 
 const auth = useAuthStore();
+const modals = useModalsStore();
 const email = ref('');
 const password = ref('');
 const error = ref('');
 const loading = ref(false);
-const { hide: hideLogin } = useToggle('login-modal');
-const { show: showSignup } = useToggle('signup-modal');
 const switchToSignupModal = () => {
-  hideLogin();
-  showSignup();
+  modals.showLogin = false;
+  modals.showSignup = true;
 };
 const { create } = useToast();
 const submitLogin = async (event: Event) => {
@@ -59,7 +59,7 @@ const submitLogin = async (event: Event) => {
     loading.value = true;
     await auth.submitLogin(email.value, password.value);
     error.value = '';
-    hideLogin();
+    modals.showLogin = false;
 
     create({
       variant: 'success',

@@ -21,7 +21,7 @@
       <BNavText class="text-gen-grey">|</BNavText>
       <BButton
         v-if="!auth.username"
-        @click="loginModal = true"
+        @click="modals.showLogin = true"
         variant="link"
         opacity-hover="75"
         class="nav-link link-light text-uppercase"
@@ -40,35 +40,18 @@
         Logout
       </BButton>
     </BNavbarNav>
-    <BModal title="Log in" id="login-modal" v-model="loginModal" lazy unmount-lazy no-footer>
-      <LoginModalBody />
-    </BModal>
-    <BModal title="Sign up" id="signup-modal" v-model="signupModal" lazy no-footer size="xl">
-      <SignupModalBody />
-    </BModal>
-    <BModal
-      title="Sign up success"
-      id="signup-success-modal"
-      v-model="signupSuccessModal"
-      lazy
-      unmount-lazy
-      no-footer
-    >
-      <SignupSuccessModalBody />
-    </BModal>
   </BNavbar>
 </template>
 
 <script setup lang="ts">
 import { SPECLAB_URL } from '@/constants';
 import { useAuthStore } from '@/store/auth';
+import { useModalsStore } from '@/store/modals';
 import { useToast } from 'bootstrap-vue-next';
 import { ref } from 'vue';
-const loginModal = ref(false);
-const signupModal = ref(false);
-const signupSuccessModal = ref(false);
 const logoutLoading = ref(false);
 const auth = useAuthStore();
+const modals = useModalsStore();
 const { create } = useToast();
 const submitLogout = async () => {
   logoutLoading.value = true;
