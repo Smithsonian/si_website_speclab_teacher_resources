@@ -31,7 +31,7 @@
     </BForm>
     <div>
       Don't have an account?
-      <BButton @click="switchToSignupModal" variant="link" class="align-baseline">Sign up</BButton>
+      <LinkButton :button-click="switchToSignupModal">Sign up</LinkButton>
     </div>
   </div>
 </template>

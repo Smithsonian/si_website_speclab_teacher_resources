@@ -25,6 +25,9 @@
   >
     <SignupSuccessModalBody />
   </BModal>
+  <BModal title="Please register" v-model="showPleaseRegister" lazy unmount-lazy no-footer>
+    <PleaseRegisterModalBody />
+  </BModal>
 </template>
 
 <script setup lang="ts">
@@ -34,7 +37,8 @@ import { ref } from 'vue';
 
 const modalsStore = useModalsStore();
 // Needed for BModal to work properly. Everything else should use the store directly.
-const { showConfirmEmail, showLogin, showSignup, showSignupSuccess } = storeToRefs(modalsStore);
+const { showConfirmEmail, showLogin, showSignup, showSignupSuccess, showPleaseRegister } =
+  storeToRefs(modalsStore);
 
 const confirmationCode = ref<string | null>(null);
 const search = window.location.search;

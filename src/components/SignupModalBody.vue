@@ -143,7 +143,7 @@
   </div>
   <div>
     Already have an account?
-    <BButton @click="switchToLoginModal" variant="link" class="align-baseline">Log in</BButton>
+    <LinkButton :button-click="switchToLoginModal">Log in</LinkButton>
   </div>
 </template>
 
