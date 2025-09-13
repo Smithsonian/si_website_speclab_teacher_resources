@@ -7,6 +7,16 @@ export const useModalsStore = defineStore('modals', () => {
   const showSignupSuccess = ref(false);
   const showConfirmEmail = ref(false);
   const showPleaseRegister = ref(false);
+  const showRequestEducator = ref(false);
+  const showRequestEducatorSuccess = ref(false);
 
-  return { showLogin, showSignup, showSignupSuccess, showConfirmEmail, showPleaseRegister };
+  return {
+    showLogin,
+    showSignup,
+    showSignupSuccess,
+    showConfirmEmail,
+    showPleaseRegister,
+    showRequestEducator,
+    showRequestEducatorSuccess,
+  };
 });

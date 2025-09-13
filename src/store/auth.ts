@@ -3,7 +3,7 @@ import { defineStore } from 'pinia';
 import { ref } from 'vue';
 import z from 'zod';
 
-const LoginResult = z.object({
+export const LoginResult = z.object({
   username: z.nullable(z.string()),
   isGroupMember: z.boolean(),
   isEducator: z.boolean(),
@@ -18,6 +18,10 @@ export const useAuthStore = defineStore('auth', () => {
 
   const fetchLoggedIn = async () => {
     const result = await fetchAndParse('/logged-in', 'GET', LoginResult);
+    storeResponse(result);
+  };
+
+  const storeResponse = (result: z.infer<typeof LoginResult>) => {
     username.value = result.username;
     isGroupMember.value = !!result.isGroupMember;
     isEducator.value = !!result.isEducator;
@@ -25,9 +29,7 @@ export const useAuthStore = defineStore('auth', () => {
 
   const submitLogin = async (email: string, password: string) => {
     const result = await fetchAndParse('/login', 'POST', LoginResult, { email, password });
-    username.value = result.username;
-    isGroupMember.value = !!result.isGroupMember;
-    isEducator.value = !!result.isEducator;
+    storeResponse(result);
   };
 
   const submitLogout = async () => {
@@ -35,5 +37,13 @@ export const useAuthStore = defineStore('auth', () => {
     await fetchLoggedIn();
   };
 
-  return { username, isGroupMember, isEducator, fetchLoggedIn, submitLogin, submitLogout };
+  return {
+    username,
+    isGroupMember,
+    isEducator,
+    fetchLoggedIn,
+    submitLogin,
+    submitLogout,
+    storeResponse,
+  };
 });

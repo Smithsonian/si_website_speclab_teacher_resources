@@ -25,8 +25,20 @@
   >
     <SignupSuccessModalBody />
   </BModal>
-  <BModal title="Please register" v-model="showPleaseRegister" lazy unmount-lazy no-footer>
+  <BModal
+    title="Educator account required"
+    v-model="showPleaseRegister"
+    lazy
+    unmount-lazy
+    no-footer
+  >
     <PleaseRegisterModalBody />
+  </BModal>
+  <BModal title="Provide educator information" v-model="showRequestEducator" lazy no-footer>
+    <RequestEducatorModalBody />
+  </BModal>
+  <BModal title="Success" v-model="showRequestEducatorSuccess" lazy unmount-lazy no-footer>
+    <RequestEducatorSuccessModalBody />
   </BModal>
 </template>
 
@@ -37,8 +49,15 @@ import { ref } from 'vue';
 
 const modalsStore = useModalsStore();
 // Needed for BModal to work properly. Everything else should use the store directly.
-const { showConfirmEmail, showLogin, showSignup, showSignupSuccess, showPleaseRegister } =
-  storeToRefs(modalsStore);
+const {
+  showConfirmEmail,
+  showLogin,
+  showSignup,
+  showSignupSuccess,
+  showPleaseRegister,
+  showRequestEducator,
+  showRequestEducatorSuccess,
+} = storeToRefs(modalsStore);
 
 const confirmationCode = ref<string | null>(null);
 const search = window.location.search;
