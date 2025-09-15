@@ -1,9 +1,9 @@
 <template>
   <BForm @submit="submitSignup" method="post">
     <div class="mb-3">
-      <label for="signup-firstname" class="form-label">First name</label>
+      <label for="request-firstname" class="form-label">First name</label>
       <BFormInput
-        id="signup-firstname"
+        id="request-firstname"
         v-model="firstName"
         type="text"
         autocomplete="given-name"
@@ -11,9 +11,9 @@
       />
     </div>
     <div class="mb-3">
-      <label for="signup-lastname" class="form-label">Last name</label>
+      <label for="request-lastname" class="form-label">Last name</label>
       <BFormInput
-        id="signup-lastname"
+        id="request-lastname"
         v-model="lastName"
         type="text"
         autocomplete="family-name"
@@ -21,9 +21,13 @@
       />
     </div>
     <div class="mb-3">
-      <label for="signup-institutionname" class="form-label">Institution name</label>
+      <label for="request-courseName" class="form-label">Course name</label>
+      <BFormInput id="request-courseName" v-model="courseName" type="text" required />
+    </div>
+    <div class="mb-3">
+      <label for="request-institutionname" class="form-label">Institution name</label>
       <BFormInput
-        id="signup-institutionname"
+        id="request-institutionname"
         v-model="institutionName"
         type="text"
         autocomplete="organization"
@@ -31,9 +35,9 @@
       />
     </div>
     <div class="mb-3">
-      <label for="signup-institutioncountry" class="form-label">Institution country</label>
+      <label for="request-institutioncountry" class="form-label">Institution country</label>
       <BFormInput
-        id="signup-institutioncountry"
+        id="request-institutioncountry"
         v-model="institutionCountry"
         type="text"
         autocomplete="country-name"
@@ -41,9 +45,9 @@
       />
     </div>
     <div class="mb-3">
-      <label for="signup-institutionstate" class="form-label">Institution state</label>
+      <label for="request-institutionstate" class="form-label">Institution state</label>
       <BFormInput
-        id="signup-institutionstate"
+        id="request-institutionstate"
         v-model="institutionState"
         type="text"
         autocomplete="address-level1"
@@ -51,9 +55,9 @@
       />
     </div>
     <div class="mb-3">
-      <label for="signup-institutioncity" class="form-label">Institution city</label>
+      <label for="request-institutioncity" class="form-label">Institution city</label>
       <BFormInput
-        id="signup-institutioncity"
+        id="request-institutioncity"
         v-model="institutionCity"
         type="text"
         autocomplete="address-level2"
@@ -61,9 +65,9 @@
       />
     </div>
     <div class="mb-3">
-      <label for="signup-institutionzip" class="form-label">Institution zip code</label>
+      <label for="request-institutionzip" class="form-label">Institution zip code</label>
       <BFormInput
-        id="signup-institutionzip"
+        id="request-institutionzip"
         v-model="institutionZipCode"
         type="text"
         autocomplete="postal-code"
@@ -95,6 +99,7 @@ const switchToSuccessModal = () => {
 
 const firstName = ref('');
 const lastName = ref('');
+const courseName = ref('');
 const institutionName = ref('');
 const institutionCountry = ref('');
 const institutionState = ref('');
@@ -111,6 +116,7 @@ const submitSignup = async (event: Event) => {
       educator: {
         firstName: firstName.value,
         lastName: lastName.value,
+        curriculum: courseName.value,
         institution: {
           name: institutionName.value,
           country: institutionCountry.value,

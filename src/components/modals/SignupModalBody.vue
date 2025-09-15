@@ -71,6 +71,10 @@
         </BCol>
         <BCol>
           <div class="mb-3">
+            <label for="signup-courseName" class="form-label">Course name</label>
+            <BFormInput id="signup-courseName" v-model="courseName" type="text" required />
+          </div>
+          <div class="mb-3">
             <label for="signup-institutionname" class="form-label">Institution name</label>
             <BFormInput
               id="signup-institutionname"
@@ -176,6 +180,7 @@ const signedUpForUpdates = ref(false);
 
 const firstName = ref('');
 const lastName = ref('');
+const courseName = ref('');
 const institutionName = ref('');
 const institutionCountry = ref('');
 const institutionState = ref('');
@@ -205,6 +210,7 @@ const submitSignup = async (event: Event) => {
       educator: {
         firstName: firstName.value,
         lastName: lastName.value,
+        curriculum: courseName.value,
         institution: {
           name: institutionName.value,
           country: institutionCountry.value,
