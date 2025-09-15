@@ -10,7 +10,7 @@
       </div>
       <div v-else>
         <p>Your email address "{{ email }}" has been confirmed.</p>
-        <p>You can now log in with your username and password.</p>
+        <p>You can now log in with your email and password.</p>
         <p v-if="educatorRequestStatus === 'DENIED'" class="form-error fs-6">
           However, your request to be a Data Labs Educator has been denied. If you think this
           decision was made in error, please contact diyadmin@cfa.harvard.edu.
