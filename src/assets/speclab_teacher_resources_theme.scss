@@ -94,6 +94,10 @@ $nav-pills-border-radius: 0;
   background-color: var(--slr-light-grey) !important;
 }
 
+.text-gen-grey {
+  color: var(--gen-grey) !important;
+}
+
 // Custom classes
 // Adapted from .invalid-feedback, but without looking for a nearby group
 .form-error {
