@@ -18,11 +18,13 @@
           </p>
           <ul class="list-unstyled">
             <ResourceItem
-              href="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/SpectrumLab%20Curriculum%20Overview.pdf"
+              href="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab%20Curriculum%20Overview.pdf"
+              always-allowed
               >Curriculum Overview</ResourceItem
             >
             <ResourceItem
-              href="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/How%20to%20use%20the%20Spectrum%20Lab.pdf"
+              href="https://datalabs.cfa.harvard.edu/large_files/Speclab/How%20to%20use%20the%20Spectrum%20Lab.pdf"
+              always-allowed
               >How to use the Spectrum Lab</ResourceItem
             >
           </ul>
@@ -41,14 +43,12 @@
           to make sense of phenomena they observe with the colored filters using these concepts.
           <template #resource-list>
             <ResourceList
-              teacher-guide="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Teacher%20Guide.pdf"
+              teacher-guide="https://docs.google.com/document/d/1NX2Af3237rSDCmO_s5SCckrRPnYyOo0QLXCpqtE2i5A/edit?usp=sharing"
               slides="https://docs.google.com/presentation/d/14N4v2-SpHKoffbHwUIwHWJkZ50xPdV019D2BObWWBr8/edit?usp=sharing"
-              slides-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Teacher%20Slides.pdf"
-              slides-ppt="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Teacher%20Slides.pptx"
               notebook="https://docs.google.com/document/d/1V2VWiEBpkkbPLmYkpyVWORhxNeYpCeI1Kxbont7jO14/edit?usp=sharing"
-              notebook-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Student%20Notebook.pdf"
-              notebook-word="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20Student%20Notebook.docx"
-              answers="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Module%201%20(Light)%20ANSWER%20KEY.pdf"
+              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module1Light_StudentNotebook.pdf"
+              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/Spectrum%20Lab%20Module%201%20Light%20Student%20Notebook.docx"
+              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module1Light_TeacherAnswerKey.pdf"
             />
           </template>
         </ModuleRow>
@@ -66,7 +66,7 @@
           they relate to measured quantities such as wavelength, energy, and brightness.
 
           <template #resource-list>
-            <ResourceList />
+            <ResourceList teacher-guide="" />
           </template>
         </ModuleRow>
         <ModuleRow

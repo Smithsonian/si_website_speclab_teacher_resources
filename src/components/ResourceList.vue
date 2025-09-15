@@ -1,7 +1,7 @@
 <template>
   <ul class="list-unstyled">
     <ResourceSubList header="Teacher Guide">
-      <ResourceItem :href="teacherGuide">PDF</ResourceItem>
+      <ResourceItem>Coming soon</ResourceItem>
     </ResourceSubList>
     <ResourceSubList header="Classroom Slides">
       <ResourceItem :href="slides">Google slides</ResourceItem>

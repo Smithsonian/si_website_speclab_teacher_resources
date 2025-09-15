@@ -27,9 +27,9 @@
     </p>
   </div>
   <div v-else-if="!auth.isEducator">
-    We need some additional information to set up your DIY Planet Search account as an educator
-    account. Once you provide your educator information, you’ll gain access to all the educational
-    resources for Spectrum Lab as well as other Data Labs.
+    We need some additional information to set up your DIY Planet Search account as a Data Labs
+    Educator account. Once you provide your educator information, you’ll gain access to all the
+    educational resources for Spectrum Lab as well as other Data Labs.
     <LinkButton :button-click="switchToRequestEducator">Request educator account here.</LinkButton>
   </div>
 </template>
