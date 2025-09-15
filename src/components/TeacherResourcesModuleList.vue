@@ -43,7 +43,6 @@
           to make sense of phenomena they observe with the colored filters using these concepts.
           <template #resource-list>
             <ResourceList
-              teacher-guide="https://docs.google.com/document/d/1NX2Af3237rSDCmO_s5SCckrRPnYyOo0QLXCpqtE2i5A/edit?usp=sharing"
               slides="https://docs.google.com/presentation/d/14N4v2-SpHKoffbHwUIwHWJkZ50xPdV019D2BObWWBr8/edit?usp=sharing"
               notebook="https://docs.google.com/document/d/1V2VWiEBpkkbPLmYkpyVWORhxNeYpCeI1Kxbont7jO14/edit?usp=sharing"
               notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module1Light_StudentNotebook.pdf"
@@ -66,7 +65,13 @@
           they relate to measured quantities such as wavelength, energy, and brightness.
 
           <template #resource-list>
-            <ResourceList teacher-guide="" />
+            <ResourceList
+              slides="https://docs.google.com/presentation/d/1DW3EcmL-J2RuAvZ8YX36tsdHBkpMZv3HZri76G-ECV8/edit?usp=sharing"
+              notebook="https://docs.google.com/document/d/1wzGrfWx1RAAyOBh7t2GB8DB2q1QNCXPGEjslzkvLEug/edit?usp=sharing"
+              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module2Spectra_StudentNotebook.pdf"
+              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module2Spectra_StudentNotebook.docx"
+              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module2Spectra_TeacherAnswer%20Key.pdf"
+            />
           </template>
         </ModuleRow>
         <ModuleRow
@@ -81,7 +86,13 @@
           and transmits. A spectrum can tell you whether that banana is yellow because it only
           reflects yellow light, or because it reflects a combination of green and red light.
           <template #resource-list>
-            <ResourceList />
+            <ResourceList
+              slides="https://docs.google.com/presentation/d/1wlN0LJuTiKqxVLUaThBespkIwTal4-B_Y3YA9nhKGGc/edit?usp=sharing"
+              notebook="https://docs.google.com/document/d/1PJrFalUPaWby4VCNTRhGNRKSef6UbluobbZ9L8uJyH4/edit?usp=sharing"
+              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module3Color_StudentNotebook.pdf"
+              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module3Color_StudentNotebook.docx"
+              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module3Color_TeacherAnswerKey.pdf"
+            />
           </template>
         </ModuleRow>
         <ModuleRow
@@ -96,7 +107,13 @@
           temperature, from light bulbs, and the infrared emission spectra of the Earth as acquired
           from a space telescope.
           <template #resource-list>
-            <ResourceList />
+            <ResourceList
+              slides="https://docs.google.com/presentation/d/17jq6UeTdkYaXDsnc4bIPa_ONVq6Zlp3oUuawZ0M8BfI/edit?usp=sharing"
+              notebook="https://docs.google.com/document/d/15ANiFIT0n7nE0mgC0Ez_vRfdM2FnMIHFJPk30HVuUyI/edit?usp=sharing"
+              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module4Temperature_StudentNotebook.pdf"
+              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/Spectrum%20Lab%20Module%204%20Temperature%20Student%20Notebook.docx"
+              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module4Temperature_TeacherAnswerKey.pdf"
+            />
           </template>
         </ModuleRow>
         <ModuleRow
@@ -114,7 +131,13 @@
           interpreting what these spectra tell them about the color, temperature, and atmospheric
           composition of these planets.
           <template #resource-list>
-            <ResourceList />
+            <ResourceList
+              slides="https://docs.google.com/presentation/d/1yD89bT9-3apOBkozhDJBvwxMp6xjErqeKsADA4w6Hpc/edit?usp=sharing"
+              notebook="https://docs.google.com/document/d/1c8Z9PMf9gnEbP-slthqnvAdkwF1h39K-3qvMa5pgmmk/edit?usp=sharing"
+              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module5Composition_StudentNotebook.pdf"
+              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module5Composition_StudentNotebook.docx"
+              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/Spectrum%20Lab%20Module%205%20Composition%20Answer%20Key.pdf"
+            />
           </template>
         </ModuleRow>
         <ModuleRow
@@ -141,17 +164,15 @@
           scheme and using spectral data to explain their choices.
           <template #resource-list>
             <ResourceList
-              slides="https://docs.google.com/presentation/d/1FB_vo2rYrSiNWPGeIjJJLSdE-5WNf-Siro7ee0StLM8/edit?usp=sharing"
-              slides-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fishtank%20Teacher%20Slides.pdf"
-              slides-ppt="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fishtank%20Teacher%20Slides.pptx"
+              slides="https://docs.google.com/presentation/d/14jkIbS4nb36aBM5mHRIq4uX2qSfyoMA7T1_PoEaBkOs/edit?usp=sharing"
               notebook="https://docs.google.com/document/d/12xds0lAumVzMdsvFP1Okw7J9Q8QdT2Xp4fUom2MOsiI/edit?usp=sharing"
-              notebook-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20Student%20Notebook.pdf"
-              notebook-word="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20Student%20Notebook.docx"
-              answers="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20ANSWER%20KEY.pdf"
+              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/FishTank_Student%20Notebook.pdf"
+              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectFishtank_StudentNotebook.docx"
+              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/Fishtank_AnswerKey.pdf"
             >
               <ResourceSubList header="Extras">
                 <ResourceItem
-                  href="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Fish%20Tank%20Project%20Data%20Charts.pdf"
+                  href="https://datalabs.cfa.harvard.edu/large_files/Speclab/FishTank_DataSheetpdf.pdf"
                   >Fish Tank Data Table (PDF)</ResourceItem
                 >
               </ResourceSubList>
@@ -171,7 +192,13 @@
           IR-observing James Webb Space Telescope to obtain spectra from an exoplanet target of
           their choice.
           <template #resource-list>
-            <ResourceList is-final-project />
+            <ResourceList
+              slides="https://docs.google.com/presentation/d/1FAUQUF2elO1s6IuULE8T99jA-AiEZ5fh8b7a_Jd5i9I/edit?usp=sharing"
+              notebook="https://docs.google.com/document/d/1hCfgJeXMIBvxMLDQ4O6eRGxbLGe079UUvVeXGgPzegE/edit?usp=sharing"
+              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectExoplanet_StudentNotebook.pdf"
+              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectExoplanet_StudentNotebook.docx"
+              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectExoplanet_AnswerKey.pdf"
+            />
           </template>
         </ModuleRow>
         <ModuleRow
@@ -187,20 +214,20 @@
           conveys how spectra are used in art conservation.
           <template #resource-list>
             <ResourceList
-              notebook="https://docs.google.com/document/d/1YOy7qTdmpTLjND65mImiAiUIRlwk3afIMqyvCT0a2Ac/edit?usp=sharing"
-              notebook-pdf="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Museum%20Conservation%20Student%20Notebook.pdf"
-              notebook-word="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Museum%20Conservation%20Student%20Notebook.docx"
-              is-final-project
-              datasheet=""
+              slides="https://docs.google.com/presentation/d/1uneBcmk-ctCXabkOX5WJkD1tA5psJcM8K1w7kfabPy8/edit?usp=sharing"
+              notebook="https://docs.google.com/document/d/1asO6xeo6dlZVfJ-g0BIbe7HnzfKtuWDktwOD1OFPMKo/edit?usp=sharing"
+              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectMuseum_StudentNotebook.pdf"
+              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectMuseum_StudentNotebook.docx"
+              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectMuseum_AnswerKey.pdf"
             >
               <ResourceSubList header="Extras">
                 <ResourceItem
-                  href="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Museum%20Conservation%20Pigments%20Data%20Table.pdf"
+                  href="https://datalabs.cfa.harvard.edu/large_files/Speclab/MuseumConservationPigmentsDataTable.pdf"
                   >Pigment Data Table (PDF)</ResourceItem
                 >
                 <ResourceItem
-                  href="https://waps.cfa.harvard.edu/microobservatory/spectrum/large_files/Museum%20Conservation%20Technique%20Description.pdf"
-                  >Technique Descriptions (PDF)</ResourceItem
+                  href="https://docs.google.com/document/d/1SrtVrae8j9jrMZquNHPXMaFT4DI1puuHR3gGrI-Vb-U/edit?usp=sharing"
+                  >Technique Descriptions (Google doc)</ResourceItem
                 >
               </ResourceSubList>
             </ResourceList>
