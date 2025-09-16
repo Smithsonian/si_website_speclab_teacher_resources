@@ -4,7 +4,7 @@ import { configure } from 'vue-gtag';
 
 useHead({ title: 'Teacher Resources | Spectrum Lab' });
 
-configure({ tagId: 'G-B2HMDCPFNR' });
+configure({ tagId: 'G-CQCJ1860S7' });
 </script>
 
 <template>
