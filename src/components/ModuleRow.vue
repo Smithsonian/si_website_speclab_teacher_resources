@@ -7,7 +7,7 @@
         @click="toggleExpanded"
       >
         <div class="module-row-icon-container">
-          <SvgImage :src="iconSource" class="module-row-icon" />
+          <SvgImage :src="iconSource" class="module-row-icon" role="img" :aria-label="iconAlt" />
         </div>
         <FontAwesomeIcon
           v-if="$slots['resource-list']"

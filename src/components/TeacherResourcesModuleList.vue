@@ -32,7 +32,7 @@
         <ModuleRow
           title="1. Light"
           :icon-source="lightIcon"
-          icon-alt="Light module icon"
+          icon-alt="Lightbulb icon"
           :href="`${SPECLAB_URL}/light`"
           tagline="How does the interaction of light and matter affect the colors we see?"
           default-open
@@ -54,7 +54,7 @@
         <ModuleRow
           title="2. Spectra"
           :icon-source="spectraIcon"
-          icon-alt="Spectra module icon"
+          icon-alt="Graph icon"
           :href="`${SPECLAB_URL}/spectra`"
           tagline="How can a spectrum tell us more than our eyes can perceive?"
         >
@@ -77,7 +77,7 @@
         <ModuleRow
           title="3. Color"
           :icon-source="colorIcon"
-          icon-alt="Color module icon"
+          icon-alt="Paint swatches icon"
           :href="`${SPECLAB_URL}/color`"
           tagline="How can spectra tell us what color things are?"
         >
@@ -98,7 +98,7 @@
         <ModuleRow
           title="4. Temperature"
           :icon-source="temperatureIcon"
-          icon-alt="Temperature module icon"
+          icon-alt="Thermometer icon"
           :href="`${SPECLAB_URL}/temperature`"
           tagline="What can spectra tell us about an object’s temperature?"
         >
@@ -119,7 +119,7 @@
         <ModuleRow
           title="5. Composition"
           :icon-source="compositionIcon"
-          icon-alt="Composition module icon"
+          icon-alt="States of water icon"
           :href="`${SPECLAB_URL}/composition`"
           tagline="How can spectra tell us what things are made of?"
         >
@@ -143,7 +143,7 @@
         <ModuleRow
           title="Final projects"
           :icon-source="finalProjectsIcon"
-          icon-alt="Final projects icon"
+          icon-alt="Stack of papers icon"
           :href="`${SPECLAB_URL}/final-projects`"
         >
           The Spectrum Lab Module includes a choice of 3 Final Projects that serve as authentic
@@ -152,9 +152,9 @@
           Evidence, and Reasoning framework.
         </ModuleRow>
         <ModuleRow
-          title="Fishtank"
+          title="Fish tank"
           :icon-source="fishtankIcon"
-          icon-alt="Fishtank project icon"
+          icon-alt="Fish, plant icon"
           :href="`${SPECLAB_URL}/final-projects/fishtank`"
           indent
         >
@@ -182,7 +182,7 @@
         <ModuleRow
           title="Exoplanets"
           :icon-source="exoplanetsIcon"
-          icon-alt="Exoplanets project icon"
+          icon-alt="Exoplanet and star icon"
           :href="`${SPECLAB_URL}/final-projects/exoplanets`"
           indent
         >
@@ -204,7 +204,7 @@
         <ModuleRow
           title="Museum conservation"
           :icon-source="museumIcon"
-          icon-alt="Museum conservation project icon"
+          icon-alt="Painting and paintbrush icon"
           :href="`${SPECLAB_URL}/final-projects/museum`"
           indent
         >
@@ -236,7 +236,7 @@
         <ModuleRow
           title="Playground"
           :icon-source="playgroundIcon"
-          icon-alt="Playground icon"
+          icon-alt="Viewing and drawing graphs icon"
           :href="`${SPECLAB_URL}/playground`"
         >
           This feature of the Spectrum Lab allows teachers and students to flexibly access, analyze,
