@@ -103,6 +103,16 @@
                     Running time: 3:21
                   </template>
                 </ResourceItem>
+                <ResourceItem :click-handler="handleVideoLEDClick">
+                  Teacher Demo: LED Tower
+                  <template #description>
+                    Continuing the previous demonstration, Jim Kernohan shows the spectra of
+                    different led sources and has a quick demo to reveal how the colors on the
+                    screen on a smart phone are made of just three primary colors: red, green, and
+                    blue.<br />
+                    Running time: 0:57
+                  </template>
+                </ResourceItem>
               </ResourceSubList>
             </ResourceList>
           </template>
@@ -281,6 +291,11 @@ const modalsStore = useModalsStore();
 const handleVideoVisibleClick = (e: MouseEvent) => {
   e.preventDefault();
   modalsStore.showVideoVisibleInfraredUltra = true;
+};
+
+const handleVideoLEDClick = (e: MouseEvent) => {
+  e.preventDefault();
+  modalsStore.showVideoLEDTower = true;
 };
 </script>
 

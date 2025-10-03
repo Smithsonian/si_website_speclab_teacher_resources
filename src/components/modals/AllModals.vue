@@ -51,6 +51,17 @@
   >
     <VideoVisibleInfraredUltraModalBody />
   </BModal>
+  <BModal
+    title="Teacher Demo: LED Tower"
+    id="video-led-tower-modal"
+    v-model="showVideoLEDTower"
+    size="xl"
+    lazy
+    unmount-lazy
+    no-footer
+  >
+    <VideoLEDTowerModalBody />
+  </BModal>
 </template>
 
 <script setup lang="ts">
@@ -69,6 +80,7 @@ const {
   showRequestEducator,
   showRequestEducatorSuccess,
   showVideoVisibleInfraredUltra,
+  showVideoLEDTower,
 } = storeToRefs(modalsStore);
 
 const confirmationCode = ref<string | null>(null);
