@@ -92,7 +92,19 @@
               notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module3Color_StudentNotebook.pdf"
               notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module3Color_StudentNotebook.docx"
               answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module3Color_TeacherAnswerKey.pdf"
-            />
+            >
+              <ResourceSubList header="Extras">
+                <ResourceItem :click-handler="handleVideoVisibleClick">
+                  Teacher Demo: Visible, Infrared, and Ultraviolet
+                  <template #description>
+                    Physics and Astronomy teacher, Jim Kernohan, demonstrates how a tungsten light
+                    blub filament's temperature determines the spectrum of the light it produces. He
+                    goes on to demo quick ways of detecting infrared and ultraviolet light.<br />
+                    Running time: 3:21
+                  </template>
+                </ResourceItem>
+              </ResourceSubList>
+            </ResourceList>
           </template>
         </ModuleRow>
         <ModuleRow
@@ -262,6 +274,14 @@ import exoplanetsIcon from '@/assets/SVG/modelTransit1.svg?set-current-color';
 import museumIcon from '@/assets/SVG/museum_conservation_icon.svg?set-current-color';
 import playgroundIcon from '@/assets/SVG/playground_icon.svg?set-current-color';
 import { SPECLAB_URL } from '@/constants';
+import { useModalsStore } from '@/store/modals';
+
+const modalsStore = useModalsStore();
+
+const handleVideoVisibleClick = (e: MouseEvent) => {
+  e.preventDefault();
+  modalsStore.showVideoVisibleInfraredUltra = true;
+};
 </script>
 
 <style>

@@ -40,6 +40,17 @@
   <BModal title="Success" v-model="showRequestEducatorSuccess" lazy unmount-lazy no-footer>
     <RequestEducatorSuccessModalBody />
   </BModal>
+  <BModal
+    title="Teacher Demo: Visible, Infrared, and Ultraviolet"
+    id="video-visible-infrared-ultra-modal"
+    v-model="showVideoVisibleInfraredUltra"
+    size="xl"
+    lazy
+    unmount-lazy
+    no-footer
+  >
+    <VideoVisibleInfraredUltraModalBody />
+  </BModal>
 </template>
 
 <script setup lang="ts">
@@ -57,6 +68,7 @@ const {
   showPleaseRegister,
   showRequestEducator,
   showRequestEducatorSuccess,
+  showVideoVisibleInfraredUltra,
 } = storeToRefs(modalsStore);
 
 const confirmationCode = ref<string | null>(null);

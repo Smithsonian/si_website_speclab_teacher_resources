@@ -9,6 +9,7 @@ export const useModalsStore = defineStore('modals', () => {
   const showPleaseRegister = ref(false);
   const showRequestEducator = ref(false);
   const showRequestEducatorSuccess = ref(false);
+  const showVideoVisibleInfraredUltra = ref(false);
 
   return {
     showLogin,
@@ -18,5 +19,6 @@ export const useModalsStore = defineStore('modals', () => {
     showPleaseRegister,
     showRequestEducator,
     showRequestEducatorSuccess,
+    showVideoVisibleInfraredUltra,
   };
 });

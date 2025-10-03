@@ -1,4 +1,5 @@
 import './assets/speclab_teacher_resources_theme.scss';
+import 'video.js/dist/video-js.css';
 import { ViteSSG } from 'vite-ssg/single-page';
 import App from './App.vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
