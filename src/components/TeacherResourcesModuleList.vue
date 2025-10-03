@@ -226,8 +226,8 @@
                   >Pigment Data Table (PDF)</ResourceItem
                 >
                 <ResourceItem
-                  href="https://docs.google.com/document/d/1SrtVrae8j9jrMZquNHPXMaFT4DI1puuHR3gGrI-Vb-U/edit?usp=sharing"
-                  >Technique Descriptions (Google doc)</ResourceItem
+                  href="https://datalabs.cfa.harvard.edu/large_files/Speclab/Museum Technique Descriptions.pdf"
+                  >Technique Descriptions (PDF)</ResourceItem
                 >
               </ResourceSubList>
             </ResourceList>
