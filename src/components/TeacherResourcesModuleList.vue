@@ -43,8 +43,8 @@
           to make sense of phenomena they observe with the colored filters using these concepts.
           <template #resource-list>
             <ResourceList
-              slides="https://docs.google.com/presentation/d/14N4v2-SpHKoffbHwUIwHWJkZ50xPdV019D2BObWWBr8/edit?usp=sharing"
-              notebook="https://docs.google.com/document/d/1V2VWiEBpkkbPLmYkpyVWORhxNeYpCeI1Kxbont7jO14/edit?usp=sharing"
+              slides="https://docs.google.com/presentation/d/14N4v2-SpHKoffbHwUIwHWJkZ50xPdV019D2BObWWBr8/view"
+              notebook="https://docs.google.com/document/d/1V2VWiEBpkkbPLmYkpyVWORhxNeYpCeI1Kxbont7jO14/copy"
               notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module1Light_StudentNotebook.pdf"
               notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/Spectrum%20Lab%20Module%201%20Light%20Student%20Notebook.docx"
               answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module1Light_TeacherAnswerKey.pdf"
@@ -66,8 +66,8 @@
 
           <template #resource-list>
             <ResourceList
-              slides="https://docs.google.com/presentation/d/1DW3EcmL-J2RuAvZ8YX36tsdHBkpMZv3HZri76G-ECV8/edit?usp=sharing"
-              notebook="https://docs.google.com/document/d/1wzGrfWx1RAAyOBh7t2GB8DB2q1QNCXPGEjslzkvLEug/edit?usp=sharing"
+              slides="https://docs.google.com/presentation/d/1DW3EcmL-J2RuAvZ8YX36tsdHBkpMZv3HZri76G-ECV8/view"
+              notebook="https://docs.google.com/document/d/1wzGrfWx1RAAyOBh7t2GB8DB2q1QNCXPGEjslzkvLEug/copy"
               notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module2Spectra_StudentNotebook.pdf"
               notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module2Spectra_StudentNotebook.docx"
               answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module2Spectra_TeacherAnswer%20Key.pdf"
@@ -87,8 +87,8 @@
           reflects yellow light, or because it reflects a combination of green and red light.
           <template #resource-list>
             <ResourceList
-              slides="https://docs.google.com/presentation/d/1wlN0LJuTiKqxVLUaThBespkIwTal4-B_Y3YA9nhKGGc/edit?usp=sharing"
-              notebook="https://docs.google.com/document/d/1PJrFalUPaWby4VCNTRhGNRKSef6UbluobbZ9L8uJyH4/edit?usp=sharing"
+              slides="https://docs.google.com/presentation/d/1wlN0LJuTiKqxVLUaThBespkIwTal4-B_Y3YA9nhKGGc/view"
+              notebook="https://docs.google.com/document/d/1PJrFalUPaWby4VCNTRhGNRKSef6UbluobbZ9L8uJyH4/copy"
               notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module3Color_StudentNotebook.pdf"
               notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module3Color_StudentNotebook.docx"
               answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module3Color_TeacherAnswerKey.pdf"
@@ -130,8 +130,8 @@
           from a space telescope.
           <template #resource-list>
             <ResourceList
-              slides="https://docs.google.com/presentation/d/17jq6UeTdkYaXDsnc4bIPa_ONVq6Zlp3oUuawZ0M8BfI/edit?usp=sharing"
-              notebook="https://docs.google.com/document/d/15ANiFIT0n7nE0mgC0Ez_vRfdM2FnMIHFJPk30HVuUyI/edit?usp=sharing"
+              slides="https://docs.google.com/presentation/d/17jq6UeTdkYaXDsnc4bIPa_ONVq6Zlp3oUuawZ0M8BfI/view"
+              notebook="https://docs.google.com/document/d/15ANiFIT0n7nE0mgC0Ez_vRfdM2FnMIHFJPk30HVuUyI/copy"
               notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module4Temperature_StudentNotebook.pdf"
               notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/Spectrum%20Lab%20Module%204%20Temperature%20Student%20Notebook.docx"
               answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module4Temperature_TeacherAnswerKey.pdf"
@@ -154,8 +154,8 @@
           composition of these planets.
           <template #resource-list>
             <ResourceList
-              slides="https://docs.google.com/presentation/d/1yD89bT9-3apOBkozhDJBvwxMp6xjErqeKsADA4w6Hpc/edit?usp=sharing"
-              notebook="https://docs.google.com/document/d/1c8Z9PMf9gnEbP-slthqnvAdkwF1h39K-3qvMa5pgmmk/edit?usp=sharing"
+              slides="https://docs.google.com/presentation/d/1yD89bT9-3apOBkozhDJBvwxMp6xjErqeKsADA4w6Hpc/view"
+              notebook="https://docs.google.com/document/d/1c8Z9PMf9gnEbP-slthqnvAdkwF1h39K-3qvMa5pgmmk/copy"
               notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module5Composition_StudentNotebook.pdf"
               notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module5Composition_StudentNotebook.docx"
               answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/Spectrum%20Lab%20Module%205%20Composition%20Answer%20Key.pdf"
@@ -186,8 +186,8 @@
           scheme and using spectral data to explain their choices.
           <template #resource-list>
             <ResourceList
-              slides="https://docs.google.com/presentation/d/14jkIbS4nb36aBM5mHRIq4uX2qSfyoMA7T1_PoEaBkOs/edit?usp=sharing"
-              notebook="https://docs.google.com/document/d/12xds0lAumVzMdsvFP1Okw7J9Q8QdT2Xp4fUom2MOsiI/edit?usp=sharing"
+              slides="https://docs.google.com/presentation/d/14jkIbS4nb36aBM5mHRIq4uX2qSfyoMA7T1_PoEaBkOs/view"
+              notebook="https://docs.google.com/document/d/12xds0lAumVzMdsvFP1Okw7J9Q8QdT2Xp4fUom2MOsiI/copy"
               notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/FishTank_Student%20Notebook.pdf"
               notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectFishtank_StudentNotebook.docx"
               answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/Fishtank_AnswerKey.pdf"
@@ -215,8 +215,8 @@
           their choice.
           <template #resource-list>
             <ResourceList
-              slides="https://docs.google.com/presentation/d/1FAUQUF2elO1s6IuULE8T99jA-AiEZ5fh8b7a_Jd5i9I/edit?usp=sharing"
-              notebook="https://docs.google.com/document/d/1hCfgJeXMIBvxMLDQ4O6eRGxbLGe079UUvVeXGgPzegE/edit?usp=sharing"
+              slides="https://docs.google.com/presentation/d/1FAUQUF2elO1s6IuULE8T99jA-AiEZ5fh8b7a_Jd5i9I/view"
+              notebook="https://docs.google.com/document/d/1hCfgJeXMIBvxMLDQ4O6eRGxbLGe079UUvVeXGgPzegE/copy"
               notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectExoplanet_StudentNotebook.pdf"
               notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectExoplanet_StudentNotebook.docx"
               answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectExoplanet_AnswerKey.pdf"
@@ -236,8 +236,8 @@
           conveys how spectra are used in art conservation.
           <template #resource-list>
             <ResourceList
-              slides="https://docs.google.com/presentation/d/1uneBcmk-ctCXabkOX5WJkD1tA5psJcM8K1w7kfabPy8/edit?usp=sharing"
-              notebook="https://docs.google.com/document/d/1asO6xeo6dlZVfJ-g0BIbe7HnzfKtuWDktwOD1OFPMKo/edit?usp=sharing"
+              slides="https://docs.google.com/presentation/d/1uneBcmk-ctCXabkOX5WJkD1tA5psJcM8K1w7kfabPy8/view"
+              notebook="https://docs.google.com/document/d/1asO6xeo6dlZVfJ-g0BIbe7HnzfKtuWDktwOD1OFPMKo/copy"
               notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectMuseum_StudentNotebook.pdf"
               notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectMuseum_StudentNotebook.docx"
               answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectMuseum_AnswerKey.pdf"
