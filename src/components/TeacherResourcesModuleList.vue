@@ -71,7 +71,14 @@
               notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module2Spectra_StudentNotebook.pdf"
               notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module2Spectra_StudentNotebook.docx"
               answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module2Spectra_TeacherAnswer%20Key.pdf"
-            />
+            >
+              <ResourceSubList header="Extras">
+                <ResourceItem
+                  href="https://datalabs.cfa.harvard.edu/large_files/Speclab/Module%202%20Tool%20Tutorial.pdf"
+                  >Tutorial handout</ResourceItem
+                >
+              </ResourceSubList>
+            </ResourceList>
           </template>
         </ModuleRow>
         <ModuleRow
