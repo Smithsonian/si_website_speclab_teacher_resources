@@ -18,12 +18,12 @@
           </p>
           <ul class="list-unstyled">
             <ResourceItem
-              href="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab%20Curriculum%20Overview.pdf"
+              :href="`${LARGE_FILES_BASE}/Speclab/SpectrumLab%20Curriculum%20Overview.pdf`"
               always-allowed
               >Curriculum Overview</ResourceItem
             >
             <ResourceItem
-              href="https://datalabs.cfa.harvard.edu/large_files/Speclab/How%20to%20use%20the%20Spectrum%20Lab.pdf"
+              :href="`${LARGE_FILES_BASE}/Speclab/How%20to%20use%20the%20Spectrum%20Lab.pdf`"
               always-allowed
               >How to use the Spectrum Lab</ResourceItem
             >
@@ -45,9 +45,9 @@
             <ResourceList
               slides="https://docs.google.com/presentation/d/14N4v2-SpHKoffbHwUIwHWJkZ50xPdV019D2BObWWBr8/view"
               notebook="https://docs.google.com/document/d/1V2VWiEBpkkbPLmYkpyVWORhxNeYpCeI1Kxbont7jO14/copy"
-              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module1Light_StudentNotebook.pdf"
-              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/Spectrum%20Lab%20Module%201%20Light%20Student%20Notebook.docx"
-              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module1Light_TeacherAnswerKey.pdf"
+              :notebook-pdf="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_Module1Light_StudentNotebook.pdf`"
+              :notebook-word="`${LARGE_FILES_BASE}/Speclab/Spectrum%20Lab%20Module%201%20Light%20Student%20Notebook.docx`"
+              :answers="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_Module1Light_TeacherAnswerKey.pdf`"
             />
           </template>
         </ModuleRow>
@@ -68,13 +68,12 @@
             <ResourceList
               slides="https://docs.google.com/presentation/d/1DW3EcmL-J2RuAvZ8YX36tsdHBkpMZv3HZri76G-ECV8/view"
               notebook="https://docs.google.com/document/d/1wzGrfWx1RAAyOBh7t2GB8DB2q1QNCXPGEjslzkvLEug/copy"
-              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module2Spectra_StudentNotebook.pdf"
-              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module2Spectra_StudentNotebook.docx"
-              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module2Spectra_TeacherAnswer%20Key.pdf"
+              :notebook-pdf="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_Module2Spectra_StudentNotebook.pdf`"
+              :notebook-word="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_Module2Spectra_StudentNotebook.docx`"
+              :answers="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_Module2Spectra_TeacherAnswer%20Key.pdf`"
             >
               <ResourceSubList header="Extras">
-                <ResourceItem
-                  href="https://datalabs.cfa.harvard.edu/large_files/Speclab/Module%202%20Tool%20Tutorial.pdf"
+                <ResourceItem :href="`${LARGE_FILES_BASE}/Speclab/Module%202%20Tool%20Tutorial.pdf`"
                   >Tutorial handout</ResourceItem
                 >
               </ResourceSubList>
@@ -96,9 +95,9 @@
             <ResourceList
               slides="https://docs.google.com/presentation/d/1wlN0LJuTiKqxVLUaThBespkIwTal4-B_Y3YA9nhKGGc/view"
               notebook="https://docs.google.com/document/d/1PJrFalUPaWby4VCNTRhGNRKSef6UbluobbZ9L8uJyH4/copy"
-              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module3Color_StudentNotebook.pdf"
-              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module3Color_StudentNotebook.docx"
-              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module3Color_TeacherAnswerKey.pdf"
+              :notebook-pdf="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_Module3Color_StudentNotebook.pdf`"
+              :notebook-word="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_Module3Color_StudentNotebook.docx`"
+              :answers="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_Module3Color_TeacherAnswerKey.pdf`"
             >
               <ResourceSubList header="Extras">
                 <ResourceItem :click-handler="handleVideoVisibleClick">
@@ -139,9 +138,9 @@
             <ResourceList
               slides="https://docs.google.com/presentation/d/17jq6UeTdkYaXDsnc4bIPa_ONVq6Zlp3oUuawZ0M8BfI/view"
               notebook="https://docs.google.com/document/d/15ANiFIT0n7nE0mgC0Ez_vRfdM2FnMIHFJPk30HVuUyI/copy"
-              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module4Temperature_StudentNotebook.pdf"
-              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/Spectrum%20Lab%20Module%204%20Temperature%20Student%20Notebook.docx"
-              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module4Temperature_TeacherAnswerKey.pdf"
+              :notebook-pdf="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_Module4Temperature_StudentNotebook.pdf`"
+              :notebook-word="`${LARGE_FILES_BASE}/Speclab/Spectrum%20Lab%20Module%204%20Temperature%20Student%20Notebook.docx`"
+              :answers="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_Module4Temperature_TeacherAnswerKey.pdf`"
             />
           </template>
         </ModuleRow>
@@ -163,9 +162,9 @@
             <ResourceList
               slides="https://docs.google.com/presentation/d/1yD89bT9-3apOBkozhDJBvwxMp6xjErqeKsADA4w6Hpc/view"
               notebook="https://docs.google.com/document/d/1c8Z9PMf9gnEbP-slthqnvAdkwF1h39K-3qvMa5pgmmk/copy"
-              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module5Composition_StudentNotebook.pdf"
-              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_Module5Composition_StudentNotebook.docx"
-              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/Spectrum%20Lab%20Module%205%20Composition%20Answer%20Key.pdf"
+              :notebook-pdf="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_Module5Composition_StudentNotebook.pdf`"
+              :notebook-word="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_Module5Composition_StudentNotebook.docx`"
+              :answers="`${LARGE_FILES_BASE}/Speclab/Spectrum%20Lab%20Module%205%20Composition%20Answer%20Key.pdf`"
             />
           </template>
         </ModuleRow>
@@ -195,13 +194,12 @@
             <ResourceList
               slides="https://docs.google.com/presentation/d/14jkIbS4nb36aBM5mHRIq4uX2qSfyoMA7T1_PoEaBkOs/view"
               notebook="https://docs.google.com/document/d/12xds0lAumVzMdsvFP1Okw7J9Q8QdT2Xp4fUom2MOsiI/copy"
-              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/FishTank_Student%20Notebook.pdf"
-              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectFishtank_StudentNotebook.docx"
-              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/Fishtank_AnswerKey.pdf"
+              :notebook-pdf="`${LARGE_FILES_BASE}/Speclab/FishTank_Student%20Notebook.pdf`"
+              :notebook-word="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_FinalProjectFishtank_StudentNotebook.docx`"
+              :answers="`${LARGE_FILES_BASE}/Speclab/Fishtank_AnswerKey.pdf`"
             >
               <ResourceSubList header="Extras">
-                <ResourceItem
-                  href="https://datalabs.cfa.harvard.edu/large_files/Speclab/FishTank_DataSheetpdf.pdf"
+                <ResourceItem :href="`${LARGE_FILES_BASE}/Speclab/FishTank_DataSheetpdf.pdf`"
                   >Fish Tank Data Table (PDF)</ResourceItem
                 >
               </ResourceSubList>
@@ -224,9 +222,9 @@
             <ResourceList
               slides="https://docs.google.com/presentation/d/1FAUQUF2elO1s6IuULE8T99jA-AiEZ5fh8b7a_Jd5i9I/view"
               notebook="https://docs.google.com/document/d/1hCfgJeXMIBvxMLDQ4O6eRGxbLGe079UUvVeXGgPzegE/copy"
-              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectExoplanet_StudentNotebook.pdf"
-              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectExoplanet_StudentNotebook.docx"
-              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectExoplanet_AnswerKey.pdf"
+              :notebook-pdf="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_FinalProjectExoplanet_StudentNotebook.pdf`"
+              :notebook-word="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_FinalProjectExoplanet_StudentNotebook.docx`"
+              :answers="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_FinalProjectExoplanet_AnswerKey.pdf`"
             />
           </template>
         </ModuleRow>
@@ -245,17 +243,17 @@
             <ResourceList
               slides="https://docs.google.com/presentation/d/1uneBcmk-ctCXabkOX5WJkD1tA5psJcM8K1w7kfabPy8/view"
               notebook="https://docs.google.com/document/d/1asO6xeo6dlZVfJ-g0BIbe7HnzfKtuWDktwOD1OFPMKo/copy"
-              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectMuseum_StudentNotebook.pdf"
-              notebook-word="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectMuseum_StudentNotebook.docx"
-              answers="https://datalabs.cfa.harvard.edu/large_files/Speclab/SpectrumLab_FinalProjectMuseum_AnswerKey.pdf"
+              :notebook-pdf="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_FinalProjectMuseum_StudentNotebook.pdf`"
+              :notebook-word="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_FinalProjectMuseum_StudentNotebook.docx`"
+              :answers="`${LARGE_FILES_BASE}/Speclab/SpectrumLab_FinalProjectMuseum_AnswerKey.pdf`"
             >
               <ResourceSubList header="Extras">
                 <ResourceItem
-                  href="https://datalabs.cfa.harvard.edu/large_files/Speclab/MuseumConservationPigmentsDataTable.pdf"
+                  :href="`${LARGE_FILES_BASE}/Speclab/MuseumConservationPigmentsDataTable.pdf`"
                   >Pigment Data Table (PDF)</ResourceItem
                 >
                 <ResourceItem
-                  href="https://datalabs.cfa.harvard.edu/large_files/Speclab/Museum%20Technique%20Descriptions.pdf"
+                  :href="`${LARGE_FILES_BASE}/Speclab/Museum%20Technique%20Descriptions.pdf`"
                   >Technique Descriptions (PDF)</ResourceItem
                 >
               </ResourceSubList>
@@ -290,7 +288,7 @@ import fishtankIcon from '@/assets/SVG/fish_tank_icon.svg?set-current-color';
 import exoplanetsIcon from '@/assets/SVG/modelTransit1.svg?set-current-color';
 import museumIcon from '@/assets/SVG/museum_conservation_icon.svg?set-current-color';
 import playgroundIcon from '@/assets/SVG/playground_icon.svg?set-current-color';
-import { SPECLAB_URL } from '@/constants';
+import { LARGE_FILES_BASE, SPECLAB_URL } from '@/constants';
 import { useModalsStore } from '@/store/modals';
 
 const modalsStore = useModalsStore();
