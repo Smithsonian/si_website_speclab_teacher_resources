@@ -18,7 +18,7 @@
           </p>
           <ul class="list-unstyled">
             <ResourceItem
-              :href="`${LARGE_FILES_BASE}/Speclab/SpectrumLab%20Curriculum%20Overview.pdf`"
+              :href="`${LARGE_FILES_BASE}/Speclab/SpectrumLab%20Curriculum%20Overview%202026-04-02.pdf`"
               always-allowed
               >Curriculum Overview</ResourceItem
             >
@@ -199,7 +199,8 @@
               :answers="`${LARGE_FILES_BASE}/Speclab/Fishtank_AnswerKey.pdf`"
             >
               <ResourceSubList header="Extras">
-                <ResourceItem :href="`${LARGE_FILES_BASE}/Speclab/FishTank_DataSheetpdf.pdf`"
+                <ResourceItem
+                  :href="`${LARGE_FILES_BASE}/Speclab/FishTank_DataSheetpdf%202026-04-02.pdf`"
                   >Fish Tank Data Table (PDF)</ResourceItem
                 >
               </ResourceSubList>
@@ -249,7 +250,7 @@
             >
               <ResourceSubList header="Extras">
                 <ResourceItem
-                  :href="`${LARGE_FILES_BASE}/Speclab/MuseumConservationPigmentsDataTable.pdf`"
+                  :href="`${LARGE_FILES_BASE}/Speclab/Museum%20Conservation%20Pigments%20Data%20Table%202026-04-13%20v1.pdf`"
                   >Pigment Data Table (PDF)</ResourceItem
                 >
                 <ResourceItem
